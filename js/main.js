@@ -10,7 +10,33 @@ $(document).ready(function() {
     });
 
 
+    //    SearchResult-----------------------------
+    $('.search-box form input').on('click', function() {
+        $(this).parents('.search-box').addClass('show-result').find('.search-result').fadeIn(0);
+        $(".overlay-search-box").css({ "opacity": "1", "visibility": "visible" });
+    })
+    $('.search-box form input').keyup(function() {
+        $(this).parents('.search-box').addClass('show-result').find('.search-result').fadeIn(0);
+        $(this).parents('.search-box').find('.search-result-list').fadeIn(0);
+        if ($(this).val().length == 0) {
 
+            $(this).parents('.search-box').removeClass('show-result').find('.search-result').fadeOut(0);
+            $(this).parents('.search-box').find('.search-result-list').fadeOut(0);
+            $(this).parents('.search-box').removeClass('show-result');
+        } else {
+
+            $(this).parents('.search-box').find('.search-result').fadeIn(0);
+            $(this).parents('.search-box').find('.search-result-list').fadeIn(0);
+        }
+    });
+    $(document).click(function(e) {
+        if ($(e.target).is('.search-box *')) return;
+        $('.search-result').hide();
+        $('.search-box').removeClass('show-result');
+        $(".overlay-search-box").css({ "opacity": "0", "visibility": "hidden" });
+    });
+
+    //    SearchResult-----------------------------
     //////////////////////////////////////////////// Mega Menu ////////////////////////////////////////////////
 
     $(".menu .mega-menu .category-list .category-item:first-child").addClass("active");
@@ -32,7 +58,6 @@ $(document).ready(function() {
         dots: true,
 
     });
-
 
 
     //////////////////////////////////////////////// Category ////////////////////////////////////////////////

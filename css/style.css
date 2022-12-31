@@ -282,7 +282,7 @@ body {
     height: 15px;
     margin: 5px;
     border-radius: 50%;
-    background: #ff5858;
+    background: #d90268;
 }
 
 #loading-wrapper .content-loaging span:nth-child(1) {
@@ -430,7 +430,7 @@ body {
 
 .banner-ads .holder-ads .ads .ads-pic img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
@@ -1139,7 +1139,6 @@ body {
 }
 
 .category .category-holder {
-    margin-bottom: 30px;
     background: #ffffff;
 }
 
@@ -1276,6 +1275,7 @@ body {
     display: block;
     font-size: 12px;
     color: #a4a4a4;
+    height: 72px;
 }
 
 .new-products .holder-item .product-info .product-bottom {
@@ -1544,7 +1544,7 @@ body {
 
 .show-all-btn {
     display: inline-block;
-    border: 1px solid #dcdcdc;
+    border: 1px solid #bdbbbb;
     border-radius: 5px;
     font-size: 14px;
     padding: 10px 15px;
@@ -1560,6 +1560,10 @@ body {
 
 .amazing-offer .products {
     margin-top: 20px;
+}
+
+.item-product .pic-box img {
+    padding: 25px;
 }
 
 .amazing-offer .amazing-right .product-item {
@@ -2018,13 +2022,129 @@ body {
 /*---------product-comp--------*/
 
 
+/*----------serach-------*/
+
+.header-right .search-header {
+    width: 100% !important;
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: -10px !important;
+    text-align: right
+}
+
+.header-right .search-header .search-result {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: -6px;
+    background-color: #f1f1f1;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+    z-index: 100;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    display: none;
+}
+
+.header-right .search-header .search-result ul.search-result-list {
+    margin-bottom: 30px;
+    display: none;
+}
+
+.header-right .search-header .search-result ul.search-result-list li {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.header-right .search-header .search-result ul.search-result-list li a {
+    color: #000;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.header-right .search-header .search-result ul.search-result-list li a .btn-remove-search {
+    border-radius: 50px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.header-right .search-header .search-result ul.search-result-most-view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.header-right .search-header .search-result ul.search-result-most-view li {
+    margin-left: 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 6px 14px 6px 14px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e2;
+}
+
+.header-right .search-header .search-result ul.search-result-most-view li a {
+    color: #424750;
+    font-size: 11px;
+    font-size: .786rem;
+    line-height: 23.87px;
+}
+
+.header-right .search-header .search-result ul.search-result-most-view li a i {
+    margin-right: 4px;
+    color: #a1a3a8;
+    font-size: 1rem;
+    line-height: 1.375;
+    vertical-align: middle;
+}
+
+.header-right .search-box.show-result form input {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.header-right .search-header .search-result .search-results-list {
+    letter-spacing: -.4px;
+    font-size: 12px;
+    font-size: .857rem;
+    line-height: 1.833;
+    list-style: none;
+    font-weight: 700;
+}
+
+.header-right .search-header .search-result .search-results-list a {
+    color: #474747;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.header-right .search-header .search-result .search-results-list a img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+/*----------serach-------*/
+
+
 /*--------weaz-color----------*/
 
 .weaz-colors {
     width: 10px;
     display: block;
     position: absolute;
-    top: 10px;
+    top: 11%;
     right: 5px;
     z-index: 99;
 }
@@ -2170,7 +2290,7 @@ body {
     position: relative;
     margin-left: 5px;
     margin-bottom: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     background: #ffffff;
     -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
@@ -2233,7 +2353,7 @@ body {
     width: 100%;
     padding: 15px 15px 15px 90px;
     font-size: 12px;
-    border-radius: 15px;
+    border-radius: 10px;
     background: #e8e8e8;
 }
 
@@ -2243,7 +2363,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    border-radius: 15px 0 0 15px;
+    border-radius: 10px 0 0 10px;
     color: #ffffff;
     background: #ff5858;
 }
@@ -3457,7 +3577,7 @@ body {
 }
 
 .shop-product .shop .filter .pric .price-button a:hover {
-    background: #2f2f2f;
+    background: #4057cb;
 }
 
 .shop-product .shop .filter .color {
