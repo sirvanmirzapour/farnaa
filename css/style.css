@@ -347,7 +347,13 @@ body {
     height: 1px;
     bottom: 0;
     right: 0;
-    background: #ff5858;
+    background: #d90268;
+}
+
+#head-title .title h6 {
+    position: relative;
+    font-weight: 600;
+    padding-bottom: 10px;
 }
 
 
@@ -637,7 +643,6 @@ body {
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
-    padding-left: 10px;
 }
 
 .middle-menu .header-left .hl-item {
@@ -1819,12 +1824,32 @@ body {
 
 /*---------- End Banner Ads 2 ----------*/
 
-
+m
 /*---------- Start Brand ----------*/
+
+.brand .brand-box .brand-item-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.brand .brand-box .brand-item-1 img {
+    margin-top: 40px;
+    padding-top: 10px;
+    width: auto;
+    height: 100px;
+}
 
 .brand .brand-box .brand-item {
     position: relative;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
     border-radius: 10px;
     background: #ffffff;
@@ -1840,10 +1865,52 @@ body {
     padding: 20px;
 }
 
-.brand .brand-box .brand-item a img {}
+.brand .brand-box .brand-item img {
+    padding-top: 10px;
+    width: auto;
+    height: 100px;
+}
 
 
 /*---------- End Brand ----------*/
+
+
+/*---------- last seen ----------*/
+
+.lastseen .seen-box .seen-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.lastseen .seen-box .seen-item:hover {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+}
+
+.lastseen .seen-box .seen-item img {
+    padding: 10px;
+}
+
+.lastseen .seen-box .seen-item a {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.lastseen .seen-box .seen-item a:hover {
+    color: #d90268;
+}
+
+
+/*---------- last seen ----------*/
 
 
 /*---------- Start Blog ----------*/
@@ -1969,7 +2036,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fdfdfd;
     padding: 0 5%;
 }
 
@@ -2248,8 +2314,7 @@ body {
 }
 
 .footer .services {
-    padding: 15px 0;
-    background: #e8e8e8;
+    background: #f1f1f1;
 }
 
 .footer .services .services-item {
@@ -2448,8 +2513,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     background: #ffffff;
-    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    border: 1px #dcdcdc solid;
 }
 
 .single-product .product .gallery-product #thumbs {
@@ -2471,6 +2535,7 @@ body {
     right: 0;
     left: 0;
     background: rgba(215, 215, 215, 40%);
+    border-radius: 10px;
 }
 
 .single-product .product .gallery-product #thumbs .current .item img {
@@ -2499,7 +2564,7 @@ body {
     height: 50px;
     top: 50%;
     font-size: 24px;
-    border-radius: 50%;
+    border-radius: 10px;
     background: #ffffff;
     border: 1px solid #ffffff;
     -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
@@ -2669,7 +2734,7 @@ body {
 
 .single-product .product .info-product .delivery {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #d7d7d7;
 }
 
@@ -2696,19 +2761,41 @@ body {
 }
 
 .single-product .product .sales-info {
-    padding: 25px;
-    border-radius: 20px;
-    background: #f1f1f1;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
 }
 
 .single-product .product .sales-info .color-product {
-    padding: 15px 0;
-    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+    display: flex;
 }
 
 .single-product .product .sales-info .color-product .title {
-    margin-bottom: 15px;
-    font-weight: 600;
+    margin-bottom: 12px;
+    font-weight: 200;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.single-product .product .sales-info .varanty-product .title {
+    margin-bottom: 12px;
+    font-weight: 200;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.single-product .product .sales-info .varanty-product .varanty-box div {
+    border: 1px #dcdcdc solid;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    width: fit-content;
+}
+
+.single-product .product .sales-info .varanty-product .varanty-box label {
+    font-weight: 200;
+    margin-left: 10px;
+    font-size: 14px;
 }
 
 .single-product .product .sales-info .color-product .color-box .color {
@@ -2718,7 +2805,7 @@ body {
     height: 30px;
     float: left;
     margin: 0 6px;
-    border-radius: 50%;
+    border-radius: 5px;
     text-align: center;
     background: #ff5858;
     cursor: pointer;
@@ -2754,7 +2841,6 @@ body {
     right: -4px;
     width: 38px;
     height: 38px;
-    border: 2px solid #ff5858;
     border-radius: 50%;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -2792,12 +2878,14 @@ body {
 
 .single-product .product .sales-info .quantity-product {
     padding: 15px 0;
-    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 .single-product .product .sales-info .quantity-product .title {
-    margin-bottom: 15px;
     font-weight: 600;
+    margin-left: 10px;
 }
 
 .single-product .product .sales-info .quantity-product .quantity {
@@ -2810,7 +2898,7 @@ body {
     width: 80px;
     height: 40px;
     padding: 5px 25px 5px 25px;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -2838,7 +2926,8 @@ body {
 }
 
 .single-product .product .sales-info .price-product {
-    padding: 15px 0;
+    padding: 10px 0;
+    display: flex;
 }
 
 .single-product .product .sales-info .price-product .title {
@@ -2884,7 +2973,7 @@ body {
     padding: 15px;
     font-size: 14px;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #ffffff;
     background: #ff5858;
 }
@@ -2925,8 +3014,8 @@ body {
     position: relative;
     color: #ff5858;
     background: #ffffff;
-    -webkit-box-shadow: 0 10px 0 #ffffff, 0 0 10px rgb(0 0 0 / 20%);
-    box-shadow: 0 10px 0 #ffffff, 0 0 10px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 5px 0 #ffffff, 0 0 5px rgb(0 0 0 / 20%);
+    box-shadow: 0 5px 0 #ffffff, 0 0 5px rgb(0 0 0 / 20%);
     z-index: 222;
 }
 
@@ -2935,8 +3024,7 @@ body {
     padding: 50px;
     border-radius: 10px 0 10px 10px;
     background: #ffffff;
-    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    border: 1px #dcdcdc solid;
     z-index: 2;
 }
 
@@ -3278,16 +3366,15 @@ body {
 /*------------------------------------------------------------    Shop Page Start     ------------------------------------------------------------*/
 
 .shop-product {
-    margin: 30px 0 100px 0;
+    margin: 30px 0 30px 0;
 }
 
 .shop-product .shop .filter .category {
     padding: 30px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #ffffff;
-    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    border: 1px #dcdcdc solid;
 }
 
 .shop-product .shop .filter .title h6 {
@@ -3393,10 +3480,9 @@ body {
 .shop-product .shop .filter .available {
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #ffffff;
-    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    border: 1px #dcdcdc solid;
 }
 
 .shop-product .shop .filter .available .toggle-item {
@@ -3599,9 +3685,9 @@ body {
     height: 30px;
     float: right;
     margin: 6px;
-    border-radius: 50%;
+    border-radius: 5px;
     text-align: center;
-    background: #ff5858;
+    background: #d90268;
     cursor: pointer;
 }
 
@@ -3659,7 +3745,6 @@ body {
     right: -4px;
     width: 38px;
     height: 38px;
-    border: 2px solid #ff5858;
     border-radius: 50%;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -3783,13 +3868,13 @@ body {
     padding: 15px;
     font-size: 18px;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #ffffff;
     background: #ff5858;
 }
 
 .shop-product .shop .filter .button-filter a:hover {
-    background: #2f2f2f;
+    background: #4057cb;
 }
 
 .shop-product .shop .shop-content .tabs .tabs-nav {
@@ -3839,7 +3924,7 @@ body {
     position: relative;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #f1f1f1;
 }
 
@@ -3967,14 +4052,29 @@ body {
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .discount {
     position: absolute;
     width: 50px;
-    height: 40px;
+    height: 30px;
     left: 0;
     top: 0;
     text-align: center;
-    line-height: 40px;
-    border-radius: 15px 0;
+    line-height: 30px;
+    border-radius: 10px 0;
     color: #ffffff;
-    background: #ff5858;
+    font-size: 14px;
+    background: #d90268;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .discount-full {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    color: #ffffff;
+    font-size: 14px;
+    background: #d90268;
 }
 
 .pagination {
@@ -3992,9 +4092,9 @@ body {
     height: 45px;
     font-size: 18px;
     text-align: center;
-    line-height: 45px;
-    border-radius: 50%;
-    border: 1px solid #a4a4a4;
+    line-height: 48px;
+    border-radius: 7px;
+    border: 1px solid #dcdcdc;
 }
 
 .pagination .pagination-box .item a:hover {
@@ -6193,7 +6293,7 @@ body {
     width: 500px;
     top: 50%;
     padding: 30px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #ffffff;
     box-shadow: 0px 0px 100px 0px rgb(0 0 0 / 20%);
     -webkit-box-shadow: 0px 0px 100px 0px rgb(0 0 0 / 20%);
@@ -6232,7 +6332,7 @@ body {
     margin-bottom: 10px;
     padding: 15px;
     font-size: 14px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid #d7d7d7;
 }
 
@@ -6306,7 +6406,7 @@ body {
     margin-bottom: 5px;
     padding: 15px;
     font-size: 14px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #ffffff;
     background: #ff5858;
 }
