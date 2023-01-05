@@ -424,10 +424,54 @@ body {
 /*---------------------------------------- End Back To Top ----------------------------------------*/
 
 
+/*------seo info-------*/
+
+.single_slider {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover !important;
+    height: 500px;
+    background: #000000;
+    margin-left: 0 !important;
+    direction: rtl !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .single_slider {
+        height: 418px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_slider {
+        height: 351px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_slider {
+        height: 330px;
+        background-position: 55%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .single_slider {
+        background-position: 10%;
+        height: 300px;
+    }
+}
+
+
+/*------seo info-------*/
+
+
 /*---------------------------------------- Start Banner Ads ----------------------------------------*/
 
 .banner-ads {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .banner-ads .holder-ads .ads .ads-pic {
@@ -1835,7 +1879,6 @@ body {
 }
 
 .brand .brand-box .brand-item-1 img {
-    margin-top: 20px;
     padding-top: 10px;
     width: auto;
     height: 140px;
@@ -2382,6 +2425,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.weaz-brand .item:hover {
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
 }
 
 .weaz-brand .item img {
@@ -3513,7 +3561,8 @@ body {
 .shop-product .shop .filter .title h6 {
     padding-bottom: 15px;
     font-weight: 600;
-    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .shop-product .shop .filter .category .category-box {
@@ -3957,6 +4006,14 @@ body {
     padding-right: 30px;
     margin-bottom: 6px;
     font-size: 13px;
+}
+
+.shop-product .shop .filter .brand .brand-box .item:hover {
+    background: #f1f1f1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #d90268;
 }
 
 .shop-product .shop .filter .brand .brand-box .item input {

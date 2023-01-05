@@ -67,6 +67,9 @@ $(document).ready(function() {
         loop: true,
         items: 8,
         dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
 
         responsive: {
             0: {
