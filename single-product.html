@@ -3516,8 +3516,14 @@
             <div class="product">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
+                        <div style="position: absolute; top: 30; z-index: 8;">
+                            <a href="#">
+                                <img src="img/users/360.webp" alt="" width="50px" height="50px">
+                            </a>
+                        </div>
                         <div class="gallery-product">
                             <div id="big-pic" class="owl-carousel owl-theme">
+
                                 <div class="item">
                                     <img src="img/products/gallery-01.jpg" alt="">
                                 </div>
@@ -3560,7 +3566,22 @@
                                     <img src="img/products/gallery-thumbs-05.jpg" alt="">
                                 </div>
                             </div>
+                            <div class="info-product">
+                                <div class="delivery f-parent">
+                                    <div class="right">
+                                        <h6>
+                                            ارسال رایگان
+                                        </h6>
+                                        <p>
+                                            برای سفارش های بالای 20 میلیون تومان
+                                        </p>
+                                    </div>
 
+                                    <div class="left">
+                                        <img src="img/delivery-free.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -3652,6 +3673,7 @@
                                         </form>
                                     </div>
                                 </div>
+
                                 <div class="quantity-product f-parent">
                                     <p class="title">
                                         تعداد :
@@ -3682,6 +3704,15 @@
                                         افزودن به سبد خرید
                                     </a>
                                 </div>
+                                <div class="wishlist-compare">
+                                    <span>
+                                                 <i class="fa fa-heart" ></i>
+                                                 <a href="#"> افزودن به لیست دلخواه</a>
+                                                 <i class="fa fa-file"></i>
+                                                 <a href="#">مقایسه این کالا</a>
+
+                                </span>
+                                </div>
                                 <div class="sales-original">
                                     <span class="original-box">
                                         <p>
@@ -3702,6 +3733,18 @@
                                             قیمت در 1401/10/11 بروز شد
                                         </p>
                                     </span>
+                                    <span class="original-box">
+                                        <p>
+                                            <i class="fal fa-shield-check"></i> 
+                                               رجیستر شده به همراه کد فعالسازی
+                                         </p>
+                                    </span>
+                                    <span class="original-box">
+                                        <p>
+                                            <i class="fal fa-shield-check"></i> 
+                                            قیمت و موجودی به روز و قطعیست
+                                         </p>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -3709,7 +3752,7 @@
 
                     <div class="col-lg-3 col-md-12">
                         <div style="border-radius: 10px;border: 1px #dcdcdc solid;">
-                            <img src="img/products/details.svg" alt="">
+                            <img src="img/products/detailspng.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -4154,35 +4197,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="add-to-cart-holder">
-                <div class="bakala-button-price">
-                    <div class="add-to-cart-button">
-                        <div id="quantity-holder">
-                            <div class="quantity">
-                                <label class="screen-reader-text" for="quantity_63b42febd3de5">تعداد</label>
-                                <div class="bakala-minus"> <span class="icon icon-bakala-minus"></span></div>
-                                <input type="number" id="quantity_63b42febd3de5" class="input-text qty text" step="1" min="1" max="50" name="quantity" value="1" title="تعداد" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="کوله پشتی میلت مدل UBIC 60+10 1916 عدد">
-                                <div class="bakala-plus"><span class="icon icon-bakala-plus"></span></div>
-                            </div>
-
-                        </div>
-                        <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt has-icon" value="9266" data-quantity="1"></button>
-                        <input type="hidden" name="add-to-cart" value="9266"></div>
-                    <div class="bakala-product-price">
-
-                        <div id="price-holder"><span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>۶,۷۹۳,۰۰۰&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi>
-                            </span>
-                            </del> <ins><span class="woocommerce-Price-amount amount"><bdi>۵,۷۹۳,۰۰۰&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span></ins>
-                            <div class="product-price-discount">
-                                <div class="dk-button-discount"><span><span> </span> %۱۵ </span>
-                                </div>
-                            </div>
-                            </span>
                         </div>
                     </div>
                 </div>
@@ -4674,7 +4688,8 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-12">
-                                                <div class="title  f-parent" style="text-align: center;">
+                                                <div class="title f-parent" style="text-align:
+                                                    center;">
                                                     <h6>
                                                         کالاهای که دیده ایید !
                                                     </h6>
@@ -4687,37 +4702,63 @@
                                 <div class="seen-box">
                                     <div class="container">
                                         <div class="row">
-                                            <div style="display: grid; align-items: center; justify-content: center;">
-                                                <div class="owl-carousel nav-arrow">
-                                                    <div class="seen-item trs-3">
-                                                        <img src="img/products/amazing-01.jpg" alt="">
+                                            <div class="owl-carousel
+                                                    nav-arrow">
+                                                <div class="seen-item
+                                                        trs-3">
+                                                    <img src="img/products/amazing-01.jpg" alt="">
 
-                                                        <a href="single-product.html " class="trs-3 ">
-                                                            تلویزیون ال ای دی هوشمند ایکس
-                                                            ویژن مدل سایز 43 اینچ
+                                                    <a href="single-product.html " class="trs-3">
+                                                            تلویزیون ال ای
+                                                            دی هوشمند ایکس
+                                                            ویژن مدل سایز 43
+                                                            اینچ
                                                         </a>
-                                                    </div>
-                                                    <div class="seen-item trs-3">
-
-                                                        <img src="img/products/amazing-02.jpg" alt="">
-
-                                                        <a href="single-product.html " class="trs-3 ">
-                                                            تلویزیون ال ای دی هوشمند ایکس
-                                                            ویژن مدل سایز 43 اینچ
-                                                        </a>
-                                                    </div>
-                                                    <div class="seen-item trs-3">
-                                                        <img src="img/products/amazing-03.jpg" alt="">
-
-                                                        <a href="single-product.html " class="trs-3 ">
-                                                            تلویزیون ال ای دی هوشمند ایکس
-                                                            ویژن مدل سایز 43 اینچ
-                                                        </a>
-                                                    </div>
-
-
                                                 </div>
+                                                <div class="seen-item
+                                                        trs-3">
+
+                                                    <img src="img/products/amazing-02.jpg" alt="">
+
+                                                    <a href="single-product.html
+                                                            " class="trs-3
+                                                            ">
+                                                            تلویزیون ال ای
+                                                            دی هوشمند ایکس
+                                                            ویژن مدل سایز 43
+                                                            اینچ
+                                                        </a>
+                                                </div>
+                                                <div class="seen-item
+                                                        trs-3">
+                                                    <img src="img/products/amazing-03.jpg" alt="">
+
+                                                    <a href="single-product.html
+                                                            " class="trs-3
+                                                            ">
+                                                            تلویزیون ال ای
+                                                            دی هوشمند ایکس
+                                                            ویژن مدل سایز 43
+                                                            اینچ
+                                                        </a>
+                                                </div>
+                                                <div class="seen-item
+                                                trs-3">
+                                                    <img src="img/products/amazing-03.jpg" alt="">
+
+                                                    <a href="single-product.html
+                                                    " class="trs-3
+                                                    ">
+                                                    تلویزیون ال ای
+                                                    دی هوشمند ایکس
+                                                    ویژن مدل سایز 43
+                                                    اینچ
+                                                </a>
+                                                </div>
+
+
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
