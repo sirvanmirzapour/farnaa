@@ -70,7 +70,6 @@ $(document).ready(function() {
         autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
-
         responsive: {
             0: {
                 items: 2,
@@ -106,14 +105,13 @@ $(document).ready(function() {
         nav: true,
         dots: false,
         navText: ["<i class='fal fa-chevron-right'></i>", "<i class='fal fa-chevron-left'></i>"],
-
         responsive: {
             0: {
                 items: 1,
 
             },
             500: {
-                items: 1,
+                items: 2,
 
             },
             1200: {
@@ -138,11 +136,11 @@ $(document).ready(function() {
 
         responsive: {
             0: {
-                items: 2,
+                items: 1.5,
 
             },
             500: {
-                items: 2,
+                items: 1.5,
 
             },
             900: {
@@ -282,15 +280,15 @@ $(document).ready(function() {
 
         responsive: {
             0: {
-                items: 1,
+                items: 1.6,
 
             },
             450: {
-                items: 2,
+                items: 1.6,
 
             },
             700: {
-                items: 3,
+                items: 2.6,
 
             },
             1200: {
@@ -600,7 +598,8 @@ $(document).ready(function() {
 
     })
 
-    //////////////////////////////////////////////// scroll-hide  ////////////////////////////////////////////////
+    //////////////////////////////////////////////// Thousand separator  ////////////////////////////////////////////////
+
 
 
 
