@@ -480,8 +480,6 @@ body {
     padding: 25px;
     min-height: 256px;
     position: relative;
-    margin-right: -24px;
-    margin-left: -16px;
 }
 
 .content-expert-summary .is-masked {
