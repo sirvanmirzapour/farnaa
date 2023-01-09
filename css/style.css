@@ -472,6 +472,109 @@ body {
     }
 }
 
+.content-expert-summary {
+    background: #ffffff;
+    color: #404040;
+    font-size: 16px;
+    line-height: 2.25;
+    padding: 25px;
+    min-height: 256px;
+    position: relative;
+    margin-right: -24px;
+    margin-left: -16px;
+}
+
+.content-expert-summary .is-masked {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.mask-text-product-summary.active {
+    max-height: 680px !important;
+}
+
+.content-expert-summary .is-masked .mask-text-product-summary {
+    overflow: hidden;
+    max-height: 250px;
+    height: unset;
+}
+
+.mask-handler {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+    background: #fcfcfc;
+    cursor: pointer;
+    color: #00bfd6;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    width: 100%;
+    bottom: -20px;
+}
+
+.mask-handler:hover {
+    text-decoration: none;
+    color: #00bfd6;
+}
+
+span.show-less {
+    display: none;
+}
+
+.content-expert-summary .is-masked .shadow-box {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    bottom: 10px;
+    height: 105px;
+    z-index: 1;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 98.8%, .99) 99%, #fcfcfc);
+}
+
+.content-expert-summary .is-masked .mask-handler span {
+    border-bottom: 1px dashed #00bfd6;
+    position: relative;
+}
+
+.toggle-box-active>ul>li ul a.info-page-show-more {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #56c7da;
+    float: left;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.toggle-box-active>ul>li ul a.info-page-show-more i {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+span.show-less {
+    display: none;
+}
+
+.content-expert-summary .is-masked .shadow-box {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    bottom: 10px;
+    height: 105px;
+    z-index: 1;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 98.8%, .99) 99%, #fcfcfc);
+}
+
 
 /*------seo info-------*/
 
@@ -1060,6 +1163,42 @@ body {
     display: block;
 }
 
+.menu .mega-menu .category-list .category-item .sub-holder-row {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    width: 600px;
+    height: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.menu .mega-menu .category-list .category-item.active .sub-holder-row {
+    display: block;
+}
+
+.menu .mega-menu .category-list .category-item .sub-holder-row .sub-menu {
+    width: 900px;
+    height: 440px;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 10px;
+    align-content: flex-start;
+    gap: 0.2rem;
+}
+
+.menu .mega-menu .category-list .category-item .sub-holder-row .sub-title {
+    position: relative;
+    display: block;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
 .menu .mega-menu .category-list .category-item .sub-menu {
     display: block;
     margin-bottom: 10px;
@@ -1069,6 +1208,25 @@ body {
     position: relative;
     display: block;
     font-weight: 600;
+}
+
+.menu .mega-menu .category-list .category-item .sub-menu .sub-item {
+    display: block;
+    font-size: 12px;
+    color: #a4a4a4;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+
+.menu .mega-menu .category-list .category-item .sub-menu-row .sub-title:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    right: -10px;
+    top: 50%;
+    border-radius: 50%;
+    background: #ff5858;
 }
 
 .menu .mega-menu .category-list .category-item .sub-menu .sub-title:after {
@@ -6846,12 +7004,16 @@ body {
 
 .search-mobile-header {
     margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    background: #f1f1f1;
 }
 
 .search-mobile-header form {
-    position: relative;
+    position: inherit;
     width: 100%;
     z-index: 1;
+    display: flex;
 }
 
 .search-mobile-header form input {
@@ -6863,13 +7025,7 @@ body {
     background: #f1f1f1;
 }
 
-.search-mobile-header form input:focus {
-    border: 1px solid #ff5858;
-}
-
 .search-mobile-header form button {
-    position: absolute;
-    left: 0;
     padding: 15px;
     font-size: 20px;
     border-radius: 15px 0 0 15px;

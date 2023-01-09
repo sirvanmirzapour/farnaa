@@ -476,23 +476,6 @@ $(document).ready(function() {
         range = document.querySelector(".shop-product .shop .filter .pric .wrapper .slider .progress");
     let priceGap = 1000;
 
-    priceInput.forEach((input) => {
-        input.addEventListener("input", (e) => {
-            let minPrice = parseInt(priceInput[0].value),
-                maxPrice = parseInt(priceInput[1].value);
-
-            if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput[1].max) {
-                if (e.target.className === "input-min") {
-                    rangeInput[0].value = minPrice;
-                    range.style.right = (minPrice / rangeInput[0].max) * 100 + "%";
-                } else {
-                    rangeInput[1].value = maxPrice;
-                    range.style.left = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
-                }
-            }
-        });
-    });
-
     rangeInput.forEach((input) => {
         input.addEventListener("input", (e) => {
             let minVal = parseInt(rangeInput[0].value),
@@ -505,14 +488,14 @@ $(document).ready(function() {
                     rangeInput[1].value = minVal + priceGap;
                 }
             } else {
-                priceInput[0].value = minVal;
-                priceInput[1].value = maxVal;
+
+                priceInput[0].value = minVal.toLocaleString("en-US");
+                priceInput[1].value = maxVal.toLocaleString("en-US");
                 range.style.right = (minVal / rangeInput[0].max) * 100 + "%";
                 range.style.left = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
             }
         });
     });
-
 
 
     //////////////////////////////////////////////// Shop Filter Color ////////////////////////////////////////////////
@@ -598,7 +581,42 @@ $(document).ready(function() {
 
     })
 
-    //////////////////////////////////////////////// Thousand separator  ////////////////////////////////////////////////
+    //////////////////////////////////////////////// toggle  ////////////////////////////////////////////////
+
+    $(".product-params-more-handler a").on('click', function(e) {
+        e.preventDefault();
+        $(".product-params-more").slideToggle(200);
+        $(this).find('.show-more').fadeToggle(0);
+        $(this).find('.show-less').fadeToggle(0);
+    });
+
+    $(".table-suppliers-more a").on('click', function(e) {
+        e.preventDefault();
+        $(".in-list").slideToggle(200);
+        $(this).find('.show-more').fadeToggle(0);
+        $(this).find('.show-less').fadeToggle(0);
+    });
+
+    $(".mask-handler").click(function(e) {
+        e.preventDefault();
+        var sumaryBox = $(this).parents('.content-expert-summary');
+        sumaryBox.find('.mask-text-product-summary').toggleClass('active');
+        sumaryBox.find('.shadow-box').fadeToggle(0);
+        $(this).find('.show-more').fadeToggle(0);
+        $(this).find('.show-less').fadeToggle(0);
+    });
+
+    $(".expert-article-button").click(function(e) {
+        e.preventDefault();
+        var sumaryBox = $(this).parents('.js-expert-article');
+        sumaryBox.find('.js-expert-article').toggleClass('active');
+        sumaryBox.find('.content-expert-text').slideToggle();
+        $(this).find('.show-more').fadeToggle(0);
+        $(this).find('.show-less').fadeToggle(0);
+    });
+
+
+    //////////////////////////////////////////////// piont  ////////////////////////////////////////////////
 
 
 
