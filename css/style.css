@@ -1421,6 +1421,51 @@ span.show-less {
     background: #2f2f2f;
 }
 
+.promotion-categories-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.promotion-categories-container .promotion-categories-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #656565;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.promotion-category {
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.promotion-category img {
+    max-width: 100%;
+}
+
+.promotion-category .promotion-category-name {
+    color: #6a6767;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
 
 /*---------- End Category ----------*/
 
@@ -1735,7 +1780,7 @@ span.show-less {
     text-align: center;
     line-height: 35px;
     font-size: 13px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
     color: #ffffff;
     background: #ff5858;
 }
@@ -2249,6 +2294,20 @@ span.show-less {
     display: block;
     float: left;
     font-size: 14px;
+}
+
+.blog .blog-box .video {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 93%;
+}
+
+.blog .blog-box .video img {
+    height: auto;
+    width: 100%;
 }
 
 
@@ -7001,6 +7060,7 @@ span.show-less {
 /*-------search moblie-----*/
 
 .search-mobile-header {
+    margin-right: 8px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid #dcdcdc;

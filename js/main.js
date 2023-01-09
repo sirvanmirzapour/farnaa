@@ -136,11 +136,11 @@ $(document).ready(function() {
 
         responsive: {
             0: {
-                items: 1.5,
+                items: 2,
 
             },
             500: {
-                items: 1.5,
+                items: 2,
 
             },
             900: {
@@ -280,15 +280,15 @@ $(document).ready(function() {
 
         responsive: {
             0: {
-                items: 1.6,
+                items: 2,
 
             },
             450: {
-                items: 1.6,
+                items: 2,
 
             },
             700: {
-                items: 2.6,
+                items: 3,
 
             },
             1200: {
