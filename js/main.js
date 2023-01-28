@@ -618,7 +618,10 @@ $(document).ready(function() {
 
     //////////////////////////////////////////////// piont  ////////////////////////////////////////////////
 
-
+    //    sidebar-sticky---------------------------
+    if ($('.sticky-sidebar').length) {
+        $('.sticky-sidebar').theiaStickySidebar();
+    }
 
 
 });

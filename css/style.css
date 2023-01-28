@@ -2922,6 +2922,97 @@ span.show-less {
 
 /*------------------------------------------------------------    Single Product Page Start     ------------------------------------------------------------*/
 
+.sales-info .add-to-cart-holder {
+    background-color: #fff;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 15px;
+    min-height: 50px;
+    right: 15px;
+    border-radius: 10px;
+    left: 15px;
+    z-index: 8;
+    box-shadow: 5px 2px 31px rgba(0, 0, 0, 0.17) !important;
+}
+
+.sales-info .add-to-cart-holder .mobile-sale-button a {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+    padding: 7px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #d90268;
+}
+
+.sales-info .add-to-cart-holder .mobile-sale-button a:hover {
+    background: #2f2f2f;
+}
+
+.sales-info .add-to-cart-holder .price del {
+    display: block;
+    font-size: 0.6rem;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sales-info .add-to-cart-holder .price ins {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #d90268;
+}
+
+.header-product.modern-header :before {
+    color: #5b5b5f!important
+}
+
+.add-to-cart-holder .quantity-product-m {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.sales-info .add-to-cart-holder .quantity-product-m .quantity {
+    position: relative;
+    float: left;
+    font-size: 1rem;
+    border: 1px #dcdcdc solid;
+    border-radius: 5px;
+}
+
+.sales-info .add-to-cart-holder .quantity-product-m .quantity .qty {
+    width: 80px;
+    height: 40px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sales-info .add-to-cart-holder.quantity-product-m .quantity .qtyminus {
+    right: 0;
+}
+
+.sales-info .add-to-cart-holder .quantity-product-m .quantity .qtyplus {
+    left: 0;
+}
+
+.sales-info .add-to-cart-holder .quantity-product-m .quantity .button {
+    position: absolute;
+    top: 50%;
+    padding: 8px;
+    background: none;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
 .single-product {
     margin: 30px 0;
 }
@@ -3205,10 +3296,10 @@ span.show-less {
 
 .single-product .product .sales-info .varanty-product .varanty-box div {
     border: 1px #dcdcdc solid;
-    padding: 2px 4px 2px 4px;
+    padding: 4px 6px 4px 6px;
     border-radius: 4px;
     margin-bottom: 4px;
-    width: fit-content;
+    width: 100%;
 }
 
 .single-product .product .sales-info .varanty-product .varanty-box label {
@@ -3371,7 +3462,36 @@ span.show-less {
     display: block;
     font-size: 18px;
     font-weight: 600;
-    color: #ff5858;
+    color: #d90268;
+}
+
+.single-product .product .sales-info .price-product-v {
+    padding: 10px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.single-product .product .sales-info .price-product-v .title {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.single-product .product .sales-info .price-product-v .price {
+    text-align: left;
+}
+
+.single-product .product .sales-info .price-product-v .price del {
+    display: block;
+    font-size: 16px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.single-product .product .sales-info .price-product-v .price ins {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d90268;
 }
 
 .single-product .product .sales-info .sales-original {
@@ -3404,7 +3524,7 @@ span.show-less {
 }
 
 .single-product .product .sales-info .sale-button a:hover {
-    background: #2f2f2f;
+    background: #233462;
 }
 
 .single-product .product .sales-info .wishlist-compare {
@@ -4425,7 +4545,7 @@ span.show-less {
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .title-box a {
     display: block;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .title-box a:hover {
@@ -5081,15 +5201,22 @@ span.show-less {
 .compare .content .title .add-product {
     display: block;
     float: left;
+    background: #d90268;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+}
+
+.compare .content .title .add-product:hover {
+    background: #233462;
 }
 
 .compare .content .title .add-product a {
-    font-size: 14px;
-    color: #19bfd3;
+    font-size: 12px;
+    color: #fff;
 }
 
 .compare .content .title .add-product a:hover {
-    color: #ff5858;
+    color: #233462;
 }
 
 .compare .content .products {
@@ -5584,6 +5711,13 @@ span.show-less {
     font-size: 14px;
 }
 
+.edit-content .edit-box form label {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
 .info-pyment .info-box form input {
     width: 100%;
     padding: 15px;
@@ -5601,7 +5735,7 @@ span.show-less {
 .info-pyment .info-box form select {
     width: 100%;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 12px;
     border-color: #f1f1f1;
     background: #f1f1f1;
@@ -5609,6 +5743,21 @@ span.show-less {
 }
 
 .info-pyment .info-box form select:focus {
+    border-color: #ff5858;
+    box-shadow: none;
+}
+
+.edit-content .edit-box form select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    border-color: #f1f1f1;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.edit-content .edit-box form select:focus {
     border-color: #ff5858;
     box-shadow: none;
 }
@@ -5628,13 +5777,40 @@ span.show-less {
     -o-transform: translateY(-50%);
 }
 
+.edit-content .edit-box form .item .state-box {
+    position: relative;
+}
+
+.edit-content .edit-box form .item .state-box i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
 .info-pyment .info-box form .item .city {
     width: 50%;
     float: right;
     padding-left: 3px
 }
 
+.edit-content .edit-box form .item .city {
+    width: 50%;
+    float: right;
+    padding-left: 3px
+}
+
 .info-pyment .info-box form .item .state {
+    width: 50%;
+    float: left;
+    padding-right: 3px
+}
+
+.edit-content .edit-box form .item .state {
     width: 50%;
     float: left;
     padding-right: 3px
@@ -5784,6 +5960,13 @@ span.show-less {
 
 .contact .contact-box {}
 
+.contact .address {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+}
+
 .contact .contact-box .con-item {
     margin-bottom: 30px;
     padding: 40px;
@@ -5802,14 +5985,17 @@ span.show-less {
     display: block;
     margin: 15px 0 !important;
     font-weight: 600;
+    font-size: 16px;
 }
 
 .contact .contact-box .con-item p {
     color: #a4a4a4;
+    font-size: 14px;
 }
 
 .contact .contact-box .con-item span {
     color: #a4a4a4;
+    font-size: 13px;
 }
 
 .contact .contact-form .holder {
@@ -6403,6 +6589,136 @@ span.show-less {
 .dashboard-profile .profile .profile-content .orders .order-box table tr td .button:hover {
     background: #233462;
     color: #ffffff;
+}
+
+
+/*--------------------    wholsale     --------------------*/
+
+.wholsale-content {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 1px #dcdcdc solid;
+}
+
+.wholsale-content .order-box table td {
+    min-width: 120px;
+}
+
+.wholsale-content .order-box table {
+    display: block;
+    overflow: auto;
+    width: calc(100% - 0px);
+}
+
+.wholsale-content .title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wholsale-content .title h5 {
+    font-weight: 600;
+}
+
+.wholsale-content .order-box table {
+    width: 100%;
+}
+
+.wholsale-content .order-box table .title {
+    font-size: 14px;
+}
+
+.wholsale-content .order-box table .title td {
+    background: #d7d7d7;
+    padding: 10px;
+}
+
+.wholsale-content .order-box table .title td:first-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wholsale-content .order-box table .title td:last-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.wholsale-content .order-box table tr td label {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.wholsale-content .order-box table tr td label input {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.wholsale-content .order-box table tr td label .tick {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    right: 0;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.wholsale-content .order-box table tr td label .tick i {
+    display: none;
+    line-height: 20px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.wholsale-content .order-box table tr td label input:checked~.tick i {
+    display: block;
+}
+
+.wholsale-content .order-box table tr td label input:checked~.tick {
+    background: #19bfd3;
+}
+
+.orwholsaleder-content .order-box table .item {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.wholsale-content .order-box table .item:last-child {
+    border-bottom: 0;
+}
+
+.wholsale-content .order-box table .item td {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.wholsale-content .order-box table .item td img {
+    width: 60px;
+}
+
+.wholsale-content .order-box table .item td a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #d90268;
+}
+
+.wholsale-content .order-box table .item td a:hover {
+    background: #233462;
 }
 
 
@@ -7558,7 +7874,6 @@ span.show-less {
         width: 100%;
         display: block;
         overflow: auto;
-        height: calc(90vh - 50px);
     }
     .pyment .pyment-box .payment-method .item {
         margin-bottom: 20px;
