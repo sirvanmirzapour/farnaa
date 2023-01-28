@@ -2684,7 +2684,6 @@ span.show-less {
     background: #ffffff;
     border: 1px #dcdcdc solid;
     max-height: 360px;
-    height: 360px;
 }
 
 .shop-product .shop .namad .title h6 {
@@ -3921,19 +3920,20 @@ span.show-less {
 }
 
 
-/*------------------------------ Not Found Product ------------------------------*/
+/*------------------------------ Not Product ------------------------------*/
 
-.single-product .product .sales-info .not-product {
+.single-product .product .info-product .sales-info .not-product {
     padding: 20px;
+    margin-top: 20px;
 }
 
-.single-product .product .sales-info .not-product p {
+.single-product .product .info-product .sales-info .not-product p {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
 }
 
-.single-product .product .sales-info.not .sale-button a {
+.single-product .product .info-product .sales-info.not .sale-button a {
     background: #2f2f2f;
 }
 
@@ -4120,7 +4120,6 @@ span.show-less {
     background: #ffffff;
     border: 1px #dcdcdc solid;
     max-height: 360px;
-    height: 360px;
 }
 
 .shop-product .shop .filter .pric .wrapper {
@@ -4254,7 +4253,6 @@ span.show-less {
     background: #ffffff;
     border: 1px #dcdcdc solid;
     max-height: 360px;
-    height: 360px;
 }
 
 .shop-product .shop .filter .color .color-box {
@@ -4627,13 +4625,13 @@ span.show-less {
     width: 45px;
     height: 45px;
     font-size: 22px;
-    border-radius: 12px;
+    border-radius: 10px;
     color: #ffffff;
-    background: #19bfd3;
+    background: #233462;
 }
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .actions .action-holder .action-item a:hover {
-    color: #2f2f2f;
+    color: #d90268;
 }
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .actions .action-holder .action-item a i {
@@ -5794,26 +5792,35 @@ span.show-less {
 
 .info-pyment .info-box form .item .city {
     width: 50%;
-    float: right;
-    padding-left: 3px
+    float: left;
+    padding-right: 3px
 }
 
 .edit-content .edit-box form .item .city {
     width: 50%;
-    float: right;
-    padding-left: 3px
+    float: left;
+    padding-right: 3px
 }
 
 .info-pyment .info-box form .item .state {
     width: 50%;
     float: left;
-    padding-right: 3px
+    padding-left: 3px
 }
 
 .edit-content .edit-box form .item .state {
     width: 50%;
     float: left;
-    padding-right: 3px
+    padding-left: 3px
+}
+
+.hoghoghi .state textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    border-color: #f1f1f1;
+    background: #f1f1f1;
 }
 
 .info-pyment .info-box form .item textarea {
@@ -6589,136 +6596,6 @@ span.show-less {
 .dashboard-profile .profile .profile-content .orders .order-box table tr td .button:hover {
     background: #233462;
     color: #ffffff;
-}
-
-
-/*--------------------    wholsale     --------------------*/
-
-.wholsale-content {
-    position: relative;
-    padding: 20px;
-    border-radius: 10px;
-    background: #ffffff;
-    margin: 1rem;
-    border-radius: 10px;
-    border: 1px #dcdcdc solid;
-}
-
-.wholsale-content .order-box table td {
-    min-width: 120px;
-}
-
-.wholsale-content .order-box table {
-    display: block;
-    overflow: auto;
-    width: calc(100% - 0px);
-}
-
-.wholsale-content .title {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.wholsale-content .title h5 {
-    font-weight: 600;
-}
-
-.wholsale-content .order-box table {
-    width: 100%;
-}
-
-.wholsale-content .order-box table .title {
-    font-size: 14px;
-}
-
-.wholsale-content .order-box table .title td {
-    background: #d7d7d7;
-    padding: 10px;
-}
-
-.wholsale-content .order-box table .title td:first-child {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.wholsale-content .order-box table .title td:last-child {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.wholsale-content .order-box table tr td label {
-    position: relative;
-    display: block;
-    width: 20px;
-    height: 20px;
-}
-
-.wholsale-content .order-box table tr td label input {
-    position: absolute;
-    right: 0;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.wholsale-content .order-box table tr td label .tick {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 50%;
-    right: 0;
-    text-align: center;
-    background: #f1f1f1;
-    border-radius: 5px;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-
-.wholsale-content .order-box table tr td label .tick i {
-    display: none;
-    line-height: 20px;
-    font-size: 12px;
-    color: #ffffff;
-}
-
-.wholsale-content .order-box table tr td label input:checked~.tick i {
-    display: block;
-}
-
-.wholsale-content .order-box table tr td label input:checked~.tick {
-    background: #19bfd3;
-}
-
-.orwholsaleder-content .order-box table .item {
-    border-bottom: 1px solid #f1f1f1;
-}
-
-.wholsale-content .order-box table .item:last-child {
-    border-bottom: 0;
-}
-
-.wholsale-content .order-box table .item td {
-    padding: 10px;
-    font-size: 12px;
-    text-align: center;
-}
-
-.wholsale-content .order-box table .item td img {
-    width: 60px;
-}
-
-.wholsale-content .order-box table .item td a {
-    display: block;
-    padding: 8px;
-    text-align: center;
-    border-radius: 5px;
-    color: #ffffff;
-    background: #d90268;
-}
-
-.wholsale-content .order-box table .item td a:hover {
-    background: #233462;
 }
 
 

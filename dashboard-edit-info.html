@@ -3618,6 +3618,12 @@
 
                             <div class="edit-box">
                                 <form>
+                                    <div class="item">
+                                        <label class="form-label" for="name">
+                                            نام کاربری
+                                        </label>
+                                        <input type="id" class="form-control" placeholder="farnaa">
+                                    </div>
                                     <div class="item f-parent">
                                         <div style="width: 50%; float: right; padding-left: 3px;">
                                             <label class="form-label" for="name">
@@ -3632,7 +3638,6 @@
                                             <input type="text" class="form-control" placeholder=" میرزاپور">
                                         </div>
                                     </div>
-
                                     <div class="item">
                                         <label class="form-label" for="phon">
                                             شماره تلفن
@@ -3645,10 +3650,9 @@
                                         </label>
                                         <input type="text" class="form-control" placeholder="1401/11/05">
                                     </div>
-
                                     <div class="item">
                                         <label class="form-label" for="name">
-                                            کد ملی
+                                            کد ملی  <i style="color: red;">*</i>
                                         </label>
                                         <input type="text" class="form-control" placeholder="0000000000">
                                     </div>
@@ -3657,6 +3661,38 @@
                                             ایمیل
                                         </label>
                                         <input type="email" class="form-control" placeholder="test@yahoo.com">
+                                    </div>
+                                    <div class="item f-parent">
+                                        <div class="city">
+                                            <label for="inputCity">شهر</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+
+                                        <div class="state">
+                                            <label for="inputState">استان</label>
+                                            <div class="state-box">
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>تهران</option>
+                                                    <option>کرج</option>
+                                                    <option>مشهد</option>
+                                                    <option>اصفهان</option>
+                                                    <option>تبریز</option>
+                                                </select>
+                                                <i class="fal fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="form-label" for="name">
+                                       <i style="color: red;">*</i>    کد پستی
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="00000-00000">
+                                    </div>
+                                    <div class="item">
+                                        <label class="form-label" for="name">
+                                            آدرس 
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.">
                                     </div>
                                     <div class="item address">
                                         <label class="form-label" for="name">
@@ -3680,7 +3716,6 @@
                                             </span>
                                         </div>
                                     </div>
-
                                     <div class="item newsletters">
                                         <label>
                                             کاربر حقوقی هستم 
@@ -3691,159 +3726,258 @@
                                         </label>
                                     </div>
 
+                                    <div class="hoghoghi">
+                                        <div class="item f-parent">
+                                            <div class="city">
+                                                <label for="inputCity">نام شرکت</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+
+                                            <div class="state">
+                                                <label for="inputCity">کد اقتصادی شرکت</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                        </div>
+                                        <div class="item f-parent">
+                                            <div class="city">
+                                                <label for="inputCity">شماره ی ثبت شرکت </label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+
+                                            <div class="state">
+                                                <label for="inputCity">کد نقش تاجر </label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                        </div>
+                                        <div class="item f-parent">
+                                            <div class="city">
+                                                <label for="inputCity"> تاریخ تاسیس شرکت </label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+
+                                            <div class="state">
+                                                <label for="inputCity">شناسه ی ملی شرکت </label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                        </div>
+                                        <div class="item f-parent">
+                                            <div class="city">
+                                                <label for="inputCity">کد پستی</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+
+                                            <div class="state">
+                                                <label for="inputCity">تلفن ثابت به همراه کد</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                        </div>
+                                        <div class="item f-parent">
+                                            <div class="state">
+                                                <label for="inputState">نوع شرکت</label>
+                                                <div class="state-box">
+                                                    <select id="inputState" class="form-control">
+                                                        <option selected>انتخاب کنید</option>
+                                                        <option>سهامی خاص</option>
+                                                        <option>سهامی عام</option>
+                                                        <option>مسئولیت محدود</option>
+                                                    </select>
+                                                    <i class="fal fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="state">
+                                                <label for="inputState">نوع مالکیت</label>
+                                                <div class="state-box">
+                                                    <select id="inputState" class="form-control">
+                                                        <option selected>انتخاب کنید</option>
+                                                        <option >خصوصی</option>
+                                                        <option>دولتی</option>
+                                                        <option>تعاونی</option>
+                                                    </select>
+                                                    <i class="fal fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item f-parent">
+                                            <div class="city">
+                                                <label for="inputCity">کپی سند مالکیت یا اجاره نامه رسمی</label>
+                                                <input type="file" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="state">
+                                                <label for="inputState"> نوع تملک محل فعالیت</label>
+                                                <div class="state-box">
+                                                    <select id="inputState" class="form-control">
+                                                        <option selected>انتخاب کنید</option>
+                                                        <option>  مالک</option>
+                                                        <option>استیجاری </option>
+                                                    </select>
+                                                    <i class="fal fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item f-parent">
+                                            <div class="city">
+                                                <label for="inputCity">آگهی آخرین روزنامه </label>
+                                                <input type="file" class="form-control" id="inputCity">
+                                            </div>
+
+                                            <div class="state">
+                                                <label for="inputCity">آگهی تاسیس شرکت ها</label>
+                                                <input type="file" class="form-control" id="inputCity">
+                                            </div>
+                                        </div>
 
 
-                                    <div class="item">
-                                        <label class="form-label" for="name">
-                                            نام کاربری
-                                        </label>
-                                        <input type="id" class="form-control" placeholder="farnaa">
-                                    </div>
+                                        <div class="state">
+                                            <label for="inputCity">نشانی محل کار</label>
+                                            <textarea name="note" id="" cols="30" rows="10"></textarea>
+                                        </div>
 
-                                    <div class="item">
-                                        <label class="form-label" for="name">
+
+                                        <div class="item">
+                                            <label class="form-label" for="name">
                                             کلمه عبور
                                             <span>
                                                 (اگر قصد تغییر ندارید خالی بگذارید)
                                             </span>
                                         </label>
-                                        <input type="password" class="form-control" placeholder="12345678">
-                                    </div>
+                                            <input type="password" class="form-control" placeholder="12345678">
+                                        </div>
 
-                                    <div class="item">
-                                        <label class="form-label" for="name">
+                                        <div class="item">
+                                            <label class="form-label" for="name">
                                             تکرار کلمه عبور
                                             <span>
                                                 (اگر قصد تغییر ندارید خالی بگذارید)
                                             </span>
                                         </label>
-                                        <input type="password" class="form-control" placeholder="12345678">
-                                    </div>
+                                            <input type="password" class="form-control" placeholder="12345678">
+                                        </div>
 
-                                    <button type="submit" class="trs-3 btn btn-primary">ذخیره تغییرات</button>
+                                        <button type="submit" class="trs-3 btn btn-primary">ذخیره تغییرات</button>
                                 </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
-    <!-- ---------- Banner Ads ---------- -->
-    <div class="banner-ads">
-        <div class="holder-ads">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-6">
-                        <div class="ads mb-2">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/3.jpg" alt="">
-                            </a>
+        <!-- ---------- Banner Ads ---------- -->
+        <div class="banner-ads">
+            <div class="holder-ads">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-6">
+                            <div class="ads mb-2">
+                                <a href="#" class="ads-pic">
+                                    <img src="img/baner/3.jpg" alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 col-6">
-                        <div class="ads">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/1.jpg" alt="">
-                            </a>
+                        <div class="col-lg-3 col-6">
+                            <div class="ads">
+                                <a href="#" class="ads-pic">
+                                    <img src="img/baner/1.jpg" alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 col-6">
-                        <div class="ads">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/4.jpg" alt="">
-                            </a>
+                        <div class="col-lg-3 col-6">
+                            <div class="ads">
+                                <a href="#" class="ads-pic">
+                                    <img src="img/baner/4.jpg" alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 col-6">
-                        <div class="ads">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/2.jpg" alt="">
-                            </a>
+                        <div class="col-lg-3 col-6">
+                            <div class="ads">
+                                <a href="#" class="ads-pic">
+                                    <img src="img/baner/2.jpg" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <!-- ---------- Popular Products ---------- -->
-    <div class="popular-products ">
-        <div class="holder-popular ">
-            <div class="products ">
-                <div class="container ">
-                    <div class="row">
-                        <div id="head-title">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 d-lg-none">
-                                        <div class="title f-parent">
-                                            <h5>
-                                                بیشترین تخفیف ها
-                                            </h5>
-                                            <a href="#" style="float:
+        <!-- ---------- Popular Products ---------- -->
+        <div class="popular-products ">
+            <div class="holder-popular ">
+                <div class="products ">
+                    <div class="container ">
+                        <div class="row">
+                            <div id="head-title">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 d-lg-none">
+                                            <div class="title f-parent">
+                                                <h5>
+                                                    بیشترین تخفیف ها
+                                                </h5>
+                                                <a href="#" style="float:
                                                     left;">نمایش همه</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 d-none d-lg-block">
-                            <div class="trs-3 " style=" margin-top: 30%; ">
-                                <div class="title f-parent ">
-                                    <h5 style="font-weight: 600; ">
-                                        بیشترین تخفیف ها
-                                    </h5>
+                            <div class="col-lg-2 d-none d-lg-block">
+                                <div class="trs-3 " style=" margin-top: 30%; ">
+                                    <div class="title f-parent ">
+                                        <h5 style="font-weight: 600; ">
+                                            بیشترین تخفیف ها
+                                        </h5>
 
-                                </div>
-                                <span>
+                                    </div>
+                                    <span>
                                     <img src="img/banner/3.png " alt=" ">
                                 </span>
-                                <div class="show-all-btn ">
-                                    <h5>
-                                        مشاهده همه
-                                    </h5>
+                                    <div class="show-all-btn ">
+                                        <h5>
+                                            مشاهده همه
+                                        </h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-10 col-md-12 ">
-                            <div class="owl-carousel nav-arrow ">
-                                <div class="item-product">
-                                    <span class="pic-box ">
+                            <div class="col-lg-10 col-md-12 ">
+                                <div class="owl-carousel nav-arrow ">
+                                    <div class="item-product">
+                                        <span class="pic-box ">
                                         <!--color-->
                                         <div class="weaz-colors">
                                             <div class=".wz_product_colors">
                                                 <span class="wz-matrix-tooltip" style="background-color:#f01b70;">
                                                     <span class="wz-matrix-tooltip-text">صورتی</span></span>
-                                </div>
-                                <div class=".wz_product_colors">
-                                    <span class="wz-matrix-tooltip" style="background-color:#61772c;">
+                                    </div>
+                                    <div class=".wz_product_colors">
+                                        <span class="wz-matrix-tooltip" style="background-color:#61772c;">
                                                     <span class="wz-matrix-tooltip-text">سبز</span></span>
-                                </div>
+                                    </div>
 
-                            </div>
-                            <!--color-->
-                            <img src="img/products/popular-01.jpg
+                                </div>
+                                <!--color-->
+                                <img src="img/products/popular-01.jpg
                                                 " alt=" ">
-                            </span>
-                            <div class="product-info ">
-                                <span class="title-box mb-1 ">
+                                </span>
+                                <div class="product-info ">
+                                    <span class="title-box mb-1 ">
                                             <a href="single-product.html " class="trs-3 ">
                                                 تلویزیون ال ای دی هوشمند
                                                 ایکس
                                                 ویژن مدل سایز 43 اینچ
                                             </a>
                                         </span>
-                                <span class="mb-3 ">
+                                    <span class="mb-3 ">
                                             <!---->
                                             <div class="ProductComp_product_icon__OLqA5
                                                     ">
@@ -3851,28 +3985,28 @@
                                             </div>
                                             <!---->
                                         </span>
-                                <div class="product-bottom f-parent
+                                    <div class="product-bottom f-parent
                                                 ">
-                                    <div class="rating ">
-                                        <strong>
+                                        <div class="rating ">
+                                            <strong>
                                                     4.5
                                                 </strong>
-                                        <i class="fal fa-stars star
+                                            <i class="fal fa-stars star
                                                         "></i>
-                                    </div>
+                                        </div>
 
-                                    <div class="pric ">
-                                        <del>
+                                        <div class="pric ">
+                                            <del>
                                                     15.000.000 تومان
                                                 </del>
-                                        <ins>
+                                            <ins>
                                                     14.000.000 تومان
                                                 </ins>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="actions trs-3 ">
-                                    <div class="action-holder ">
-                                        <span class="action-item ">
+                                    <div class="actions trs-3 ">
+                                        <div class="action-holder ">
+                                            <span class="action-item ">
                                                     <a href="cart.html " class="trs-3 ">
                                                         <i class="fal
                                                                 fa-shopping-bag
@@ -3883,7 +4017,7 @@
                                                         افزودن به سبد خرید
                                                     </p>
                                                 </span>
-                                        <span class="action-item ">
+                                            <span class="action-item ">
                                                     <a href="dashboard-favorites.html
                                                             " class="trs-3 ">
                                                         <i class="fal
@@ -3894,7 +4028,7 @@
                                                         افزودن به علاقمندی
                                                     </p>
                                                 </span>
-                                        <span class="action-item ">
+                                            <span class="action-item ">
                                                     <a href="compare.html " class="trs-3 ">
                                                         <i class="fal
                                                                 fa-random "></i>
@@ -3904,80 +4038,80 @@
                                                         افزودن به مقایسه
                                                     </p>
                                                 </span>
+                                        </div>
                                     </div>
                                 </div>
+
+                            </div>
+                            <div class="item-product">
+                                <span class="pic-box ">
+                                        <!--color-->
+                                        <div class="weaz-colors">
+                                            <div class=".wz_product_colors">
+                                                <span class="wz-matrix-tooltip" style="background-color:#f01b70;">
+                                                    <span class="wz-matrix-tooltip-text">صورتی</span></span>
+                            </div>
+                            <div class=".wz_product_colors">
+                                <span class="wz-matrix-tooltip" style="background-color:#61772c;">
+                                                    <span class="wz-matrix-tooltip-text">سبز</span></span>
                             </div>
 
                         </div>
-                        <div class="item-product">
-                            <span class="pic-box ">
-                                        <!--color-->
-                                        <div class="weaz-colors">
-                                            <div class=".wz_product_colors">
-                                                <span class="wz-matrix-tooltip" style="background-color:#f01b70;">
-                                                    <span class="wz-matrix-tooltip-text">صورتی</span></span>
-                        </div>
-                        <div class=".wz_product_colors">
-                            <span class="wz-matrix-tooltip" style="background-color:#61772c;">
-                                                    <span class="wz-matrix-tooltip-text">سبز</span></span>
-                        </div>
-
-                    </div>
-                    <!--color-->
-                    <img src="img/products/popular-02.jpg
+                        <!--color-->
+                        <img src="img/products/popular-02.jpg
                                                 " alt=" ">
-                    </span>
-                    <div class="product-info ">
-                        <span class="title-box mb-1 ">
+                        </span>
+                        <div class="product-info ">
+                            <span class="title-box mb-1 ">
                                             <a href="single-product.html " class="trs-3 ">
                                                 تلویزیون ال ای دی هوشمند
                                                 ایکس
                                                 ویژن مدل سایز 43 اینچ
                                             </a>
                                         </span>
-                        <span class="mb-3 ">
+                            <span class="mb-3 ">
                                             <!---->
                                             <div class="ProductComp_product_icon__OLqA5
                                                     ">
                                                 <ul class="pr_icon ">
                                                     <li><span class="fa
                                                                 fa-hdd " id="hard-disk "></span><span class=" ">4</span></li>
-                        <li><span class="fa
+                            <li><span class="fa
                                                                 fa-mobile "></span><span class=" ">1.77</span>
-                        </li>
-                        <li><span class="fa
+                            </li>
+                            <li><span class="fa
                                                                 fa-camera "></span><span class=" ">VGA</span>
-                        </li>
-                        <li><span class="fa
+                            </li>
+                            <li><span class="fa
                                                                 fa-battery-bolt
                                                                 "></span><span class=" ">800</span>
-                        </li>
-                        </ul>
-                    </div>
-                    <!---->
-                    </span>
-                    <div class="product-bottom f-parent
+                            </li>
+                            </ul>
+                        </div>
+                        <!---->
+                        </span>
+                        <div class="product-bottom f-parent
                                                 ">
-                        <div class="rating ">
-                            <strong>
+                            <div class="rating ">
+                                <strong>
                                                     4.5
                                                 </strong>
-                            <i class="fal fa-stars star
+                                <i class="fal fa-stars star
                                                         "></i>
-                        </div>
+                            </div>
 
-                        <div class="pric ">
-                            <del>
+                            <div class="pric ">
+                                <del>
                                                     15.000.000 تومان
                                                 </del>
-                            <ins>
+                                <ins>
                                                     14.000.000 تومان
                                                 </ins>
+                            </div>
                         </div>
-                    </div>
-                    <div class="actions trs-3 ">
-                        <div class="action-holder ">
-                            <span class="action-item ">
+                        <div class="actions trs-3 ">
+                            <div class="action-holder ">
+                                <span class="action-item ">
                                                     <a href="cart.html " class="trs-3 ">
                                                         <i class="fal
                                                                 fa-shopping-bag
@@ -3988,7 +4122,7 @@
                                                         افزودن به سبد خرید
                                                     </p>
                                                 </span>
-                            <span class="action-item ">
+                                <span class="action-item ">
                                                     <a href="dashboard-favorites.html
                                                             " class="trs-3 ">
                                                         <i class="fal
@@ -3999,7 +4133,7 @@
                                                         افزودن به علاقمندی
                                                     </p>
                                                 </span>
-                            <span class="action-item ">
+                                <span class="action-item ">
                                                     <a href="compare.html " class="trs-3 ">
                                                         <i class="fal
                                                                 fa-random "></i>
@@ -4009,82 +4143,82 @@
                                                         افزودن به مقایسه
                                                     </p>
                                                 </span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <span class="discount-full ">
+                    <span class="discount-full ">
 
                                     </span>
-            </div>
-            <div class="item-product">
-                <span class="pic-box ">
+                </div>
+                <div class="item-product">
+                    <span class="pic-box ">
                                         <!--color-->
                                         <div class="weaz-colors">
                                             <div class=".wz_product_colors">
                                                 <span class="wz-matrix-tooltip" style="background-color:#f01b70;">
                                                     <span class="wz-matrix-tooltip-text">صورتی</span></span>
-            </div>
-            <div class=".wz_product_colors">
-                <span class="wz-matrix-tooltip" style="background-color:#61772c;">
+                </div>
+                <div class=".wz_product_colors">
+                    <span class="wz-matrix-tooltip" style="background-color:#61772c;">
                                                     <span class="wz-matrix-tooltip-text">سبز</span></span>
-            </div>
+                </div>
 
-        </div>
-        <!--color-->
-        <img src="img/products/popular-03.jpg
+            </div>
+            <!--color-->
+            <img src="img/products/popular-03.jpg
                                                 " alt=" ">
-        </span>
-        <div class="product-info ">
-            <span class="title-box mb-1 ">
+            </span>
+            <div class="product-info ">
+                <span class="title-box mb-1 ">
                                             <a href="single-product.html " class="trs-3 ">
                                                 تلویزیون ال ای دی هوشمند
                                                 ایکس
                                                 ویژن مدل سایز 43 اینچ
                                             </a>
                                         </span>
-            <span class="mb-3 ">
+                <span class="mb-3 ">
                                             <!---->
                                             <div class="ProductComp_product_icon__OLqA5
                                                     ">
                                                 <ul class="pr_icon ">
                                                     <li><span class="fa
                                                                 fa-hdd " id="hard-disk "></span><span class=" ">4</span></li>
-            <li><span class="fa
+                <li><span class="fa
                                                                 fa-mobile "></span><span class=" ">1.77</span>
-            </li>
-            <li><span class="fa
+                </li>
+                <li><span class="fa
                                                                 fa-camera "></span><span class=" ">VGA</span>
-            </li>
-            <li><span class="fa
+                </li>
+                <li><span class="fa
                                                                 fa-battery-bolt
                                                                 "></span><span class=" ">800</span>
-            </li>
-            </ul>
-        </div>
-        <!---->
-        </span>
-        <div class="product-bottom f-parent
+                </li>
+                </ul>
+            </div>
+            <!---->
+            </span>
+            <div class="product-bottom f-parent
                                                 ">
-            <div class="rating ">
-                <strong>
+                <div class="rating ">
+                    <strong>
                                                     4.5
                                                 </strong>
-                <i class="fal fa-stars star
+                    <i class="fal fa-stars star
                                                         "></i>
-            </div>
+                </div>
 
-            <div class="pric ">
-                <del>
+                <div class="pric ">
+                    <del>
                                                     15.000.000 تومان
                                                 </del>
-                <ins>
+                    <ins>
                                                     14.000.000 تومان
                                                 </ins>
+                </div>
             </div>
-        </div>
-        <div class="actions trs-3 ">
-            <div class="action-holder ">
-                <span class="action-item ">
+            <div class="actions trs-3 ">
+                <div class="action-holder ">
+                    <span class="action-item ">
                                                     <a href="cart.html " class="trs-3 ">
                                                         <i class="fal
                                                                 fa-shopping-bag
@@ -4095,7 +4229,7 @@
                                                         افزودن به سبد خرید
                                                     </p>
                                                 </span>
-                <span class="action-item ">
+                    <span class="action-item ">
                                                     <a href="dashboard-favorites.html
                                                             " class="trs-3 ">
                                                         <i class="fal
@@ -4106,7 +4240,7 @@
                                                         افزودن به علاقمندی
                                                     </p>
                                                 </span>
-                <span class="action-item ">
+                    <span class="action-item ">
                                                     <a href="compare.html " class="trs-3 ">
                                                         <i class="fal
                                                                 fa-random "></i>
@@ -4116,10 +4250,10 @@
                                                         افزودن به مقایسه
                                                     </p>
                                                 </span>
+                </div>
             </div>
         </div>
-    </div>
-    <span class="discount-full ">
+        <span class="discount-full ">
                                         تخفیف 140 هزار تومان
                                     </span>
     </div>
