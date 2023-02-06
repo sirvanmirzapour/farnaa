@@ -18,7 +18,7 @@
 
     <!-- Main CSS File -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/payment.css" />
     <link rel="stylesheet" href="css/colors/color-1.css" id="colorswitch" />
 
 
@@ -29,7 +29,6 @@
     <!-- ---------- Loding ---------- -->
     <div id="loading-wrapper">
         <div class="content-loaging">
-            <span></span>
             <span></span>
             <span></span>
             <span></span>
@@ -3506,7 +3505,7 @@
 
 
 
-    <!-- ---------- Cart Page ---------- -->
+    <!-- ---------- Info Pyment Page ---------- -->
     <div class="shop-cart">
         <div class="container">
             <div class="address-bar">
@@ -3525,7 +3524,7 @@
                     </li>
                     <li class="item active">
                         <a class="trs-3" href="#">
-                                سبد خرید
+                                اطلاعات پرداخت
                             </a>
                     </li>
                 </ul>
@@ -3543,127 +3542,169 @@
                                     <span class="circle"></span>
                                 </li>
 
-                                <li class="item">
+                                <li class="item active">
                                     ارسال اطلاعات
                                     <span class="circle"></span>
                                 </li>
+
 
 
                                 <li class="item">
                                     اتمام خرید
                                     <span class="circle"></span>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-9 col-12  ">
-                            <div class="products-cart">
-                                <div class="title">
-                                    <h5>
-                                        سبد خرید
-                                    </h5>
+                        <div class="col-lg-9 col-12">
+                            <div class="shipment-page-container">
+                                <div class="headline-checkout-shopping">
+                                    <span>آدرس تحویل گیرنده</span>
+                                </div>
+                                <div class="payment">
+                                    <ul class="checkout-paymethod">
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
+                                                <label class="radio-primary">
+                                                    <input type="radio" name="address-radio" value="wallet">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <p class="checkout-paymethod-title-label">استان آذربايجان غربي, شهر بوكان , آدرس خیابان انقلاب , کد پستی 5951986614 , تحویل گیرنده سیروان میرزاپور , تلفن 09362264383</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
+
+                                                <label class="radio-primary" style="display:block">
+                                                    <input type="radio" name="address-radio" value="wallet" checked="checked">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <p class="checkout-paymethod-title-label">استان آذربايجان غربي, شهر بوكان , آدرس خیابان انقلاب , کد پستی 5951986614 , تحویل گیرنده سیروان میرزاپور , تلفن 09362264383</p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
 
-                                <div class="product-box">
-                                    <div class="product-cart">
-                                        <div class="checkout-col-total">
-                                            <a class="remove trs-3" href="#">
-                                                <i class="fa fa-window-close"></i>
-                                            </a>
-                                        </div>
-                                        <a href="#" class="col-thumb"> <img src="img/products/shop-01.png" alt=""></a>
-                                        <div class="checkout-col-desc">
-                                            <a class="name trs-3" href="#">
-                                                گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت
-                                                    </a>
-                                            <a class="category" href="#">
-                                                        رنگ بنفش
-                                                </a>
-                                            <span class="price">
-                                                <del>
-                                                    15.000.000 تومان
-                                                </del>
-                                    <ins>
-                                                    14.000.000 تومان
-                                                </ins>
-                                                 </span>
+                                <div class="add-address">
+                                    <i class="fa fa-plus"></i>
+                                    <span> اضافه کردن آدرس جدید</span>
+                                </div>
+                            </div>
+                            <div class="shipment-page-container">
+                                <div class="headline-checkout-shopping">
+                                    <span>روش ارسال</span>
+                                </div>
+                                <div class="payment">
+                                    <ul class="checkout-paymethod">
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
+                                                <label class="radio-primary">
+                                                    <input type="radio" name="send-radio" value="wallet">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <p class="checkout-paymethod-title-label">
+                                                            پست پیشتاز - شرکت ملی پست جمهوری اسلامی ایران:49000 تومان(هزینه برای هر کالای اضافه :9000تومان)
+                                                        </p>
 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
 
-                                            <form id="quantity-product" method="POST" class="quantity" action="#">
-                                                <input type="button" value="-" class="button qtyminus minus trs-3" field="quantity">
-                                                <input type="text" name="quantity" value="2" class="qty">
-                                                <input type="button" value="+" class="button qtyplus plus trs-3" field="quantity">
-                                            </form>
+                                                <label class="radio-primary" style="display:block">
+                                                    <input type="radio" name="send-radio" value="wallet" checked="checked">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <p class="checkout-paymethod-title-label">
+                                                            تیپاکس (پس کرایه)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
+                                                <label class="radio-primary" style="display:block">
+                                                    <input type="radio" name="send-radio" value="wallet" checked="checked">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <p class="checkout-paymethod-title-label">
+                                                            تیپاکس (پس کرایه)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
-                                            <span class="total-price">
-                                            30.000.000 تومان
-                                        </span>
-
-                                        </div>
-
-
-                                    </div>
-
-                                    <div class="product-cart">
-                                        <div class="checkout-col-total">
-                                            <a class="remove trs-3" href="#">
-                                                <i class="fa fa-window-close"></i>
-                                            </a>
-                                        </div>
-                                        <a href="#" class="col-thumb"> <img src="img/products/shop-01.png" alt=""></a>
-                                        <div class="checkout-col-desc">
-                                            <a class="name trs-3" href="#">
-                                                گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت
-                                                    </a>
-                                            <a class="category" href="#">
-                                                        رنگ بنفش
-                                                </a>
-                                            <span class="price">
-                                                <del>
-                                                    15.000.000 تومان
-                                                </del>
-                                    <ins>
-                                                    14.000.000 تومان
-                                                </ins>
-                                                 </span>
-
-
-                                            <form id="quantity-product" method="POST" class="quantity" action="#">
-                                                <input type="button" value="-" class="button qtyminus minus trs-3" field="quantity">
-                                                <input type="text" name="quantity" value="2" class="qty">
-                                                <input type="button" value="+" class="button qtyplus plus trs-3" field="quantity">
-                                            </form>
-
-                                            <span class="total-price">
-                                            30.000.000 تومان
-                                        </span>
-
-                                        </div>
-
-
-                                    </div>
-
-                                    <div class="button f-parent">
-                                        <a class="back trs-3" href="#">
-                                            بازگشت
-                                        </a>
-                                        <a class="update trs-3" href="#">
-                                            بروزرسانی
-                                        </a>
-                                    </div>
+                            <div class="shipment-page-container">
+                                <div class="headline-checkout-shopping">
+                                    <span>روش پرداخت </span>
+                                </div>
+                                <div class="payment">
+                                    <ul class="checkout-paymethod">
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
+                                                <label class="radio-primary">
+                                                    <input type="radio" name="bank-radio" value="wallet">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <img src="img/bank/Irankish-logo.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="wallet-container">
+                                            <div class="checkout-paymethod-item">
+                                                <label class="radio-primary" style="display:block">
+                                                    <input type="radio" name="bank-radio" value="wallet" checked="checked">
+                                                    <span class="ui-radio-check"></span>
+                                                </label>
+                                                <div class="checkout-paymethod-title">
+                                                    <div class="paymethod-wallet-amount">
+                                                        <img src="img/bank/aplogo.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-12  sticky-sidebar">
+
+                        <div class="col-lg-3 col-12 sticky-sidebar">
                             <div class="price-cart">
                                 <div class="title">
                                     <h6>
                                         هزینه سفارشات
                                     </h6>
                                 </div>
+
                                 <div class="info">
                                     <div class="price">
                                         <div class="subtotal f-parent">
@@ -3672,15 +3713,6 @@
                                             </span>
                                             <span class="value">
                                                 60.000.000 تومان
-                                            </span>
-                                        </div>
-
-                                        <div class="subtotal f-parent">
-                                            <span class="label">
-                                                 تخفیف
-                                            </span>
-                                            <span class="value">
-                                                6.000.000 تومان
                                             </span>
                                         </div>
 
@@ -3695,10 +3727,10 @@
 
                                         <div class="total f-parent">
                                             <span class="label">
-                                               قابل پرداخت
+                                                قیمت کل
                                             </span>
                                             <span class="value">
-                                                54.000.000 تومان
+                                                60.000.000 تومان
                                             </span>
                                         </div>
                                     </div>
@@ -3714,6 +3746,7 @@
                                         </a>
                                     </span>
                                 </div>
+
                                 <div class="services">
                                     <ul class="services-box">
                                         <li class="item">
@@ -3734,8 +3767,6 @@
             </div>
         </div>
     </div>
-    </div>
-
 
 
 
@@ -4573,7 +4604,6 @@
     </div>
 
 
-
     <!-- ---------- Footer ---------- -->
     <div class="footer">
         <div class="holder-footer">
@@ -4927,11 +4957,12 @@
     </div>
 
 
+
+
     <!-- ---------- Back to top ---------- -->
     <a id="tops-button" class="top-scroll trs-3" href="#">
         <i class="fal fa-chevron-up"></i>
     </a>
-
 
     <!-- JS Files -->
     <script src="js/jquery-3.6.1.min.js"></script>

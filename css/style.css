@@ -687,6 +687,96 @@ span.show-less {
 /*---------------------------------------- Address Bar ----------------------------------------*/
 
 
+/*---------------------------------------- wonder-landing ----------------------------------------*/
+
+.wonder-banner {
+    margin-top: -30px;
+    padding-top: 20px;
+    overflow: hidden;
+    background: #233462;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    right: 0;
+    border-radius: 0;
+    z-index: -1;
+    background-size: cover;
+}
+
+.address-bar-w {
+    margin-bottom: 40px;
+}
+
+.address-bar-w .box-address {
+    display: block;
+}
+
+.address-bar-w .box-address .item {
+    margin-left: 10px;
+}
+
+.address-bar-w .box-address .item a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.address-bar-w .box-address .item.active a {
+    color: #fff;
+}
+
+.address-bar-w .box-address .item a:hover {
+    color: #ff5858;
+}
+
+.address-bar-w .box-address .item a i {
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w {
+    display: flex;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .title {
+    margin-left: 40px;
+    color: #fff;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .title .icon {
+    float: right;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .title .icon i {
+    font-weight: 100;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .title .text {
+    float: right;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .nav-item {
+    margin-left: 20px;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .nav-item a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .nav-item a:hover {
+    color: #ff5858;
+}
+
+.shop-product .shop .shop-content .tabs .tabs-nav-w .nav-item.tab-active a {
+    color: #ff5858;
+}
+
+
+/*---------------------------------------- wonder-landing ----------------------------------------*/
+
+
 /*------------------------------------------------------------    Home Page 1 Start     ------------------------------------------------------------*/
 
 
@@ -3270,8 +3360,9 @@ span.show-less {
 }
 
 .single-product .product .sales-info {
-    padding: 5px 5px 5px 5px;
+    padding: 15px;
     border-radius: 10px;
+    background: #f1f1f1;
 }
 
 .single-product .product .sales-info .color-product {
@@ -7775,6 +7866,16 @@ span.show-less {
         margin-bottom: 15px;
     }
     .shop-product .shop .shop-content .tabs .tabs-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .shop-product .shop .shop-content .tabs .tabs-nav-w {
+        display: block;
+    }
+    .shop-product .shop .shop-content .tabs .tabs-nav-w .title {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .shop-product .shop .shop-content .tabs .tabs-nav-w .nav-item {
         margin-bottom: 10px;
     }
     .single-product .product .info-product .delivery {

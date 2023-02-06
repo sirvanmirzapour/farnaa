@@ -1,0 +1,24 @@
+.lc-submit {
+    display: flex;
+    width: 100%;
+}
+
+.lc-submit div {
+    cursor: pointer;
+    width: 50%;
+    height: 80px;
+    background: #233462;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lc-submit div:hover {
+    background: #d90268;
+}
+
+.lc-submit span {
+    color: aliceblue;
+}
