@@ -2432,7 +2432,15 @@ span.show-less {
     position: relative;
     height: 80%;
     justify-content: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 450px) {
+    .ProductComp_product_icon__OLqA5>ul>li {
+        height: 60%;
+        justify-content: center;
+        font-size: 0.6rem;
+    }
 }
 
 .ProductComp_product_icon__OLqA5 .pr_icon .fa-hdd::after {
@@ -3216,8 +3224,8 @@ span.show-less {
 }
 
 .single-product .product .info-product .info-title .category p {
-    font-size: 10px;
-    color: #a4a4a4;
+    font-size: 12px;
+    color: #7a7a7a;
 }
 
 .single-product .product .info-product .info-title .category:before {
@@ -3404,7 +3412,7 @@ span.show-less {
     width: 30px;
     height: 30px;
     float: left;
-    margin: 0 6px;
+    margin: 6px;
     border-radius: 5px;
     text-align: center;
     background: #ff5858;
@@ -3628,8 +3636,7 @@ span.show-less {
     width: 100%;
     clear: both;
     display: block;
-    text-align: center;
-    padding: 2px 0 4px 0;
+    padding: 2px 4px 4px 0;
 }
 
 .single-product .product .sales-info .wishlist-compare a {
@@ -4649,6 +4656,7 @@ span.show-less {
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .product-bottom {
     position: relative;
+    text-align: center;
 }
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .product-bottom .rating {
@@ -4667,10 +4675,7 @@ span.show-less {
     color: #444444;
 }
 
-.shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .product-bottom .pric {
-    float: left;
-    text-align: left;
-}
+.shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .product-bottom .pric {}
 
 .shop-product .shop .shop-content .tabs .tabs-stage .item-tab .products .item .product-info .product-bottom .pric del {
     display: block;
