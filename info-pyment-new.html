@@ -3558,7 +3558,9 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-9 col-12">
+
+
+                        <div class="col-lg-8 col-12">
                             <div class="shipment-page-container">
                                 <div class="headline-checkout-shopping">
                                     <span>آدرس تحویل گیرنده</span>
@@ -3598,10 +3600,91 @@
                                     </ul>
                                 </div>
 
-                                <div class="add-address">
+                                <div class="add-address" data-bs-toggle="modal" data-bs-target="#modal-address">
                                     <i class="fa fa-plus"></i>
                                     <span> اضافه کردن آدرس جدید</span>
                                 </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="modal-address" tabindex="-1" aria-labelledby="Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"> اضافه کردن آدرس</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="address">
+                                                    <div class="info-box">
+                                                        <form action="#">
+                                                            <div class="item">
+                                                                <label class="form-label" for="name">
+                                    نام و نام خانوادگی
+                                </label>
+                                                                <input type="text" class="form-control" placeholder="سیروان میرزاپور">
+                                                            </div>
+                                                            <div class="item">
+                                                                <label class="form-label" for="name">
+                                   شماره موبایل
+                                </label>
+                                                                <input type="text" class="form-control" placeholder="سیروان میرزاپور">
+                                                            </div>
+                                                            <div class="item f-parent">
+                                                                <div class="state">
+                                                                    <label for="inputState">شهر</label>
+                                                                    <div class="state-box">
+                                                                        <select id="inputState" class="form-control">
+                                            <option selected>تهران</option>
+                                            <option>کرج</option>
+                                            <option>مشهد</option>
+                                            <option>اصفهان</option>
+                                            <option>تبریز</option>
+                                        </select>
+                                                                        <i class="fal fa-chevron-down"></i>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="state">
+                                                                    <label for="inputState">استان</label>
+                                                                    <div class="state-box">
+                                                                        <select id="inputState" class="form-control">
+                                            <option selected>تهران</option>
+                                            <option>کرج</option>
+                                            <option>مشهد</option>
+                                            <option>اصفهان</option>
+                                            <option>تبریز</option>
+                                        </select>
+                                                                        <i class="fal fa-chevron-down"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <label class="form-label" for="name">
+                                    کد پستی
+                                </label>
+                                                                <input type="text" class="form-control" placeholder="0000000000">
+                                                            </div>
+
+                                                            <div class="item">
+                                                                <label class="form-label" for="name">
+                                    آدرس
+                                </label>
+                                                                <textarea name="note" id="" cols="10" rows="10"></textarea>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <div type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</div>
+                                                <div type="button" class="btn btn-submit">ثبت آدرس</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--modal-->
+
+
+
                             </div>
                             <div class="shipment-page-container">
                                 <div class="headline-checkout-shopping">
@@ -3697,7 +3780,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-12 sticky-sidebar">
+                        <div class="col-lg-4 col-12 sticky-sidebar">
                             <div class="price-cart">
                                 <div class="title">
                                     <h6>

@@ -5419,7 +5419,7 @@ span.show-less {
 /*------------------------------------------------------------    Checkout Steps Start     ------------------------------------------------------------*/
 
 .shop-cart {
-    margin: 30px 0 100px 0;
+    margin: 30px 0 50px 0;
 }
 
 .shop-cart .cart .checkout-steps {
@@ -5433,7 +5433,7 @@ span.show-less {
 .shop-cart .cart .checkout-steps .steps .item {
     position: relative;
     display: block;
-    width: 25%;
+    width: 33%;
     float: right;
     text-align: center;
 }
