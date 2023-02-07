@@ -171,3 +171,34 @@
 .profile .cart .products-cart .product-box .button .update {
     float: left;
 }
+
+.profile .order-content .product-box .product-cart .category .info-product li {
+    position: relative;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.profile .order-content .product-box .product-cart .category .info-product li::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    top: 50%;
+    right: -20px;
+    border-radius: 50%;
+    background: #d9d9d9;
+}
+
+.profile .order-content .product-box .product-cart .category .info-product .comment a:hover {}
+
+.profile .order-content .product-box .product-cart .category .info-product .comment a strong {
+    color: #a4a4a4;
+    font-weight: 100;
+}
+
+.profile .order-content .product-box .product-cart .category .info-product .comment a:hover {}
+
+.profile .order-content .product-box .product-cart .category .info-product .comment a strong {
+    color: #a4a4a4;
+    font-weight: 100;
+}
