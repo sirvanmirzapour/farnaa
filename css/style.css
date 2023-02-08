@@ -2923,6 +2923,18 @@ span.show-less {
 
 .footer .footer-middle .middle-left .newsletter .title {
     font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .footer-middle .middle-left .newsletter .call {
+    font-weight: 600;
+    font-size: 15px;
+    background: #d90268;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .footer .footer-middle .middle-left .newsletter form {
@@ -6080,20 +6092,21 @@ span.show-less {
 }
 
 .contact .contact-box .con-item i {
-    font-size: 60px;
+    font-size: 35px;
     color: #ff5858;
 }
 
 .contact .contact-box .con-item h4 {
     display: block;
     margin: 15px 0 !important;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
 }
 
 .contact .contact-box .con-item p {
     color: #a4a4a4;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .contact .contact-box .con-item span {

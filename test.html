@@ -1,156 +1,30 @@
+<!DOCTYPE html>
 <html>
 
-<head lang="fa">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1">
-
-    <title>فروشگاه اینترنتی فرنا</title>
-    <link rel="shortcut icon" href="img/favicon.png">
-
-    <!-- Font Icon -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/modal-address.css" />
-    <link rel="stylesheet" href="css/colors/color-1.css" id="colorswitch" />
-
-
+<head>
+    <title>OSM and Leaflet</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 </head>
 
 <body>
+    <div id="map" style="width: 900px; height: 580px"></div>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script>
+        // Creating map options
+        var mapOptions = {
+            center: [17.385044, 78.486671],
+            zoom: 10
+        }
 
-    <div class="container">
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-us">more</button>
+        // Creating a map object
+        var map = new L.map('map', mapOptions);
 
-        <div id="modal-us" class="modal fade">
-            <div class="modal-dialog">
-                <div class="mobal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">انتخاب ادرس</h4>
-                        <button class="close" data-bs-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At numquam, voluptate magnam quidem, voluptates mollitia nulla quibusdam consectetur similique aliquam aspernatur! Voluptates soluta quibusdam ducimus in unde odio quae est.
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        // Creating a Layer object
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 
-
-
-
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> اضافه کردن آدرس</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="address">
-                        <div class="info-box">
-                            <form action="#">
-                                <div class="item">
-                                    <label class="form-label" for="name">
-                                    نام و نام خانوادگی
-                                </label>
-                                    <input type="text" class="form-control" placeholder="سیروان میرزاپور">
-                                </div>
-                                <div class="item">
-                                    <label class="form-label" for="name">
-                                   شماره موبایل
-                                </label>
-                                    <input type="text" class="form-control" placeholder="سیروان میرزاپور">
-                                </div>
-                                <div class="item f-parent">
-                                    <div class="state">
-                                        <label for="inputState">شهر</label>
-                                        <div class="state-box">
-                                            <select id="inputState" class="form-control">
-                                            <option selected>تهران</option>
-                                            <option>کرج</option>
-                                            <option>مشهد</option>
-                                            <option>اصفهان</option>
-                                            <option>تبریز</option>
-                                        </select>
-                                            <i class="fal fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="state">
-                                        <label for="inputState">استان</label>
-                                        <div class="state-box">
-                                            <select id="inputState" class="form-control">
-                                            <option selected>تهران</option>
-                                            <option>کرج</option>
-                                            <option>مشهد</option>
-                                            <option>اصفهان</option>
-                                            <option>تبریز</option>
-                                        </select>
-                                            <i class="fal fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <label class="form-label" for="name">
-                                    کد پستی
-                                </label>
-                                    <input type="text" class="form-control" placeholder="0000000000">
-                                </div>
-
-                                <div class="item">
-                                    <label class="form-label" for="name">
-                                    آدرس
-                                </label>
-                                    <textarea name="note" id="" cols="30" rows="10"></textarea>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <div type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</div>
-                    <div type="button" class="btn btn-submit">ثبت آدرس</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ---------- Back to top ---------- -->
-    <a id="tops-button " class="top-scroll trs-3 " href="# ">
-        <i class="fal fa-chevron-up "></i>
-    </a>
-
-    <!-- JS Files -->
-    <script src="js/jquery-3.6.1.min.js "></script>
-    <script src="js/bootstrap.js "></script>
-
-    <!-- Plugins -->
-    <script src="js/owl.carousel.min.js "></script>
-    <script src="js/jquery.countdown.js "></script>
-
-    <!-- Main JS File -->
-    <script src="js/main.js "></script>
-    <script src="js/theia-sticky-sidebar.min.js "></script>
-
+        // Adding layer to the map
+        map.addLayer(layer);
+    </script>
 </body>
 
 </html>
