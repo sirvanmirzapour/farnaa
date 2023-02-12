@@ -636,3 +636,28 @@ $(document).ready(function() {
     map.addLayer(layer);
 
 });
+
+
+//---/hide/---//
+$(document).ready(function() {
+    $(".show").click(function() {
+        $("#fdsa").hide(500);
+        $("#fdsab").show(500);
+    });
+    $(".hide").click(function() {
+        $("#fdsa").show(500);
+        $("#fdsab").hide(500);
+    });
+});
+
+//---/hide/---//
+$(document).ready(function() {
+    $(".show").click(function() {
+        $("#mfdsa").hide();
+        $("#mfdsab").show();
+    });
+    $(".hide").click(function() {
+        $("#mfdsa").show();
+        $("#mfdsab").hide();
+    });
+});

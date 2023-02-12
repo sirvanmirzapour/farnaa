@@ -3739,18 +3739,27 @@
                                     رنگ محصول:
                                 </p>
                                 <div class="color-box f-parent">
-                                    <span id="color" class="color green">
+                                    <button class="show">
+                                        <span id="color" class="color green">
                                             <i class="fal fa-check"></i>
                                         </span>
+                                    </button>
+                                    <button class="hide">
                                     <span id="color" class="color blue">
                                             <i class="fal fa-check"></i>
+                                    </span>
+                                    </button>
+                                    <button class="show">
+                                        <span id="color" class="color" style="background: #3d3b3c;">
+                                            <i class="fal fa-check" style="color: #fff;"></i>
                                         </span>
-                                    <span id="color" class="color pink">
-                                            <i class="fal fa-check"></i>
+                                    </button>
+                                    <button class="hide">
+                                        <span id="color" class="color" style="background-color: blueviolet;">
+                                                <i class="fal fa-check" style="color: #fff;"></i>
                                         </span>
-                                    <span id="color" class="color orange">
-                                            <i class="fal fa-check"></i>
-                                        </span>
+                                        </button>
+
                                 </div>
                             </div>
                             <!------>
@@ -3778,9 +3787,16 @@
                                         </ins>
                                     </div>
                                 </div>
-                                <div class="sale-button">
+                                <div class="sale-button" id="fdsa">
                                     <a class="trs-3" href="#">
                                         افزودن به سبد خرید
+                                    </a>
+                                </div>
+
+                                <div id="fdsab" class="sale-button-bas">
+
+                                    <a class="trs-3" href="#">
+                                        <i class="fa fa-shopping-basket"></i>مشاهده سبد خرید
                                     </a>
                                 </div>
                             </div>
@@ -3793,11 +3809,19 @@
                                             <input type="button" value="+" class="button qtyplus plus trs-3" field="quantity">
                                         </form>
                                     </div>
-                                    <div class="mobile-sale-button">
+
+                                    <div class="mobile-sale-button" id="mfdsa">
                                         <a class="trs-3" href="#">
                                         افزودن به سبد خرید
                                     </a>
                                     </div>
+                                    <div id="mfdsab" class="mobile-sale-button-bas">
+
+                                        <a class="trs-3" href="#">
+                                          مشاهده سبد خرید
+                                        </a>
+                                    </div>
+
                                     <div class="price" style="text-align: left;">
                                         <del>
                                         12.000.000 تومان
@@ -3818,7 +3842,6 @@
                                 </span> <span>
                                     <i class="fa fa-file"></i>
                                     <a href="#">مقایسه این کالا</a>
-
                                 </span>
                             </div>
                             <div class="sales-original">
@@ -3848,7 +3871,6 @@
                     <div class="add-to-cart">
                         <span>افزودن به سبد خرید</span>
                     </div>
-
                     <div class="price">
                         <del>
                             12.000.000 تومان
@@ -3858,13 +3880,11 @@
                         </ins>
                     </div>
                 </div>
-
                 <div class="varanty-product-item">
                     <i class="fa fa-bags-shopping"></i>
-                    <span class="varanty-name">گارانتی ۱۸ ماهه راسا همراه سورن    </span>
+                    <span class="varanty-name">گارانتی ۱۸ ماهه راسا همراه سورن  </span>
                     <div class="add-to-cart">
                         <span>افزودن به سبد خرید</span>
-
                     </div>
                     <div class="price">
                         <del>
@@ -3963,7 +3983,6 @@
                                         20%
                                     </span>
                                     </div>
-
                                     <div class="item-product trs-3">
                                         <span class="pic-box">
                                         <img src="img/products/popular-02.jpg" alt="">
@@ -5448,11 +5467,6 @@
     </div>
 
 
-
-    <!-- ---------- Back to top ---------- -->
-    <a id="tops-button" class="top-scroll trs-3" href="#">
-        <i class="fal fa-chevron-up"></i>
-    </a>
 
 
     <!-- JS Files -->
