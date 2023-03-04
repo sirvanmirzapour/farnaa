@@ -157,6 +157,12 @@
 
 .address .info-box form .item .state {
     width: 50%;
+    float: left;
+    padding-left: 5px
+}
+
+.address .info-box form .item .state-right {
+    width: 50%;
     float: right;
     padding-left: 5px
 }
@@ -202,6 +208,12 @@
     color: #f1f1f1;
 }
 
+.address .submit-action {
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .btnsubmit {
     background: #d90268;
     color: #f1f1f1;
@@ -210,4 +222,9 @@
 .btnsubmit:hover {
     background: #233462;
     color: #f1f1f1;
+}
+
+.main-h-login {
+    border-radius: 10px;
+    background: #ffffff;
 }
