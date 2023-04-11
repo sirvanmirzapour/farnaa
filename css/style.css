@@ -333,6 +333,24 @@ body {
 
 #head-title .title {}
 
+#head-title .title h2 {
+    position: relative;
+    float: right;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+#head-title .title h2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: 0;
+    background: #d90268;
+}
+
 #head-title .title h5 {
     position: relative;
     float: right;
@@ -672,6 +690,11 @@ span.show-less {
 
 .address-bar .box-address .item.active a {
     color: #2f2f2f;
+}
+
+.address-bar .box-address .item.active h1 {
+    color: #2f2f2f;
+    font-size: 14px;
 }
 
 .address-bar .box-address .item a:hover {
@@ -2214,6 +2237,13 @@ span.show-less {
 
 /*---------- last seen ----------*/
 
+.lastseen .hoder-seen #head-title h3 {
+    position: relative;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
 .lastseen .seen-box .seen-item {
     position: relative;
     display: flex;
@@ -2927,6 +2957,7 @@ span.show-less {
 
 .footer .footer-middle .links .title {
     font-weight: 600;
+    font-size: 16px;
 }
 
 .footer .footer-middle .links .link-box {
@@ -2993,6 +3024,7 @@ span.show-less {
 
 .footer .footer-middle .middle-left .social .title {
     font-weight: 600;
+    font-size: 14px;
 }
 
 .footer .footer-middle .middle-left .social .social-box {
@@ -3279,6 +3311,11 @@ span.show-less {
 
 .single-product .product .info-product .info-title .title h5 {
     font-weight: 600;
+}
+
+.single-product .product .info-product .info-title .title h1 {
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .single-product .product .info-product .info-title .category {
@@ -3802,6 +3839,16 @@ span.show-less {
     font-weight: 600;
 }
 
+.tabs-product .tabs .tabs-stage .item-tab .title h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tabs-product .tabs .tabs-stage .item-tab .title h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .tabs-product .tabs .tabs-stage .item-tab .text {
     padding: 10px 0;
     font-size: 14px;
@@ -3821,7 +3868,7 @@ span.show-less {
 .tabs-product .tabs .tabs-stage .item-tab .specification .specification-item {
     display: flex;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .tabs-product .tabs .tabs-stage .item-tab .specification .specification-item .specification-label {
@@ -3836,7 +3883,7 @@ span.show-less {
     width: 80%;
     padding: 10px 20px;
     border-radius: 10px;
-    color: #a4a4a4;
+    color: #494949;
     background: #efefef;
 }
 
@@ -4144,6 +4191,13 @@ span.show-less {
 }
 
 .shop-product .shop .filter .title h6 {
+    padding-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.shop-product .shop .filter .title span {
     padding-bottom: 15px;
     font-weight: 600;
     text-align: center;
