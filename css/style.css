@@ -2915,6 +2915,7 @@ span.show-less {
 
 .footer .footer-content .description .title {
     font-weight: 600;
+    font-size: 16px;
 }
 
 .footer .footer-content .description .text {
@@ -7859,6 +7860,7 @@ span.show-less {
     }
     .footer .footer-content .description {
         margin-bottom: 30px;
+        border-top: 1px solid #e8e8e8;
     }
     .footer .footer-middle .middle-left {
         margin-top: 30px;
