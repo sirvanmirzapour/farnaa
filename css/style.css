@@ -2821,6 +2821,13 @@ span.show-less {
     font-size: 1.2rem;
 }
 
+.shop-product .shop .namad .title span {
+    padding-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 .shop-product .shop .namad .namad-box {
     display: block;
     text-align: center;
