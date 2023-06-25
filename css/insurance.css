@@ -7,10 +7,8 @@
 }
 
 .insurance {
-    margin: 30px 0 100px 0;
+    margin: 30px 0 0px 0;
 }
-
-.insurance .faq-content {}
 
 .insurance .faq-content .title {
     margin-bottom: 20px !important;
@@ -43,12 +41,12 @@
 }
 
 .insurance .faq-content .active {
-    color: #ff5858;
+    color: #1e294d;
     background: #f1f1f1;
 }
 
 .faq-title:hover {
-    color: #ff5858;
+    color: #1e294d;
 }
 
 .insurance .faq-content .faqs-title i {
@@ -80,6 +78,9 @@
 .insurance .faq-content .faqs-content-inside p {
     font-size: 14px;
 }
+
+
+/*---------------------*/
 
 .flip-card-temp {
     display: flex;
@@ -163,6 +164,9 @@
     font-weight: bolder;
 }
 
+
+/*---------------------*/
+
 h3 {
     font-size: 50px;
     font-weight: 700;
@@ -186,8 +190,8 @@ h3 {
 
 .insurance-main-title {
     padding-right: 20px;
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 30px;
+    margin-bottom: 30px !important;
     font-weight: 700;
     color: #4E5864;
 }
@@ -226,7 +230,7 @@ h3 {
 .service-title {
     font-weight: 700;
     color: #4b4b4b;
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
 }
 
 .text-center {
@@ -262,8 +266,8 @@ h3 {
 }
 
 .res-boxes img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -338,7 +342,7 @@ h3 {
 .question-mark-container::before {
     content: "";
     position: absolute;
-    background-color: #E1E1E1;
+    background-color: #f1f1f1;
     width: 120px;
     height: 120px;
     top: 0%;
@@ -346,4 +350,194 @@ h3 {
     border-radius: 50%;
     z-index: -1;
     transform: translate(-10px, -10px);
+}
+
+
+/*------------------------------------------------------------    Login  ------------------------------------------------------------*/
+
+.lgn {
+    margin: 30px;
+    width: 100%;
+}
+
+.lgn .lgn-temp .lgn-content {
+    margin: 20px;
+}
+
+.lgn .lgn-temp {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.lgn .lgn-content form {
+    margin-bottom: 30px;
+}
+
+.lgn .lgn-content form .title {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.lgn .lgn-content form .title h6 {
+    font-weight: 600;
+}
+
+.lgn .lgn-content form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+}
+
+.lgn .lgn-content form input:focus {
+    border-color: #1e294d;
+}
+
+.lgn .lgn-content form .forget {
+    margin-bottom: 40px;
+}
+
+.lgn .lgn-content form .forget .remember {
+    position: relative;
+    display: block;
+    float: right;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.lgn .lgn-content form .forget .remember input {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.lgn .lgn-content form .forget .remember .tick {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 50%;
+    right: 0;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.lgn .lgn-content form .forget .remember .tick i {
+    display: none;
+    line-height: 16px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.lgn .lgn-content form .forget .remember input:checked~.tick i {
+    display: block;
+}
+
+.lgn .lgn-content form .forget .remember input:checked~.tick {
+    background: #19bfd3;
+}
+
+.lgn .lgn-content form .forget a {
+    float: left;
+    font-size: 12px;
+    color: #19bfd3;
+}
+
+.lgn .lgn-content form .forget a:hover {
+    color: #1e294d;
+}
+
+.lgn .lgn-content form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #1e294d;
+}
+
+.lgn .lgn-content form button:hover {
+    background: #2f2f2f;
+}
+
+.lgn .lgn-content form .disposables {
+    background: #19bfd3;
+}
+
+.lgn .lgn-content .bottom-link {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.lgn .lgn-content .bottom-link a {
+    color: #19bfd3;
+}
+
+.lgn .lgn-content .bottom-link a:hover {
+    color: #1e294d;
+}
+
+.lgn .lgn-content form .text {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.lgn .lgn-content form .number {
+    margin-bottom: 10px;
+}
+
+.lgn .lgn-content form .number input {
+    width: 55px;
+    height: 55px;
+    margin-left: 5px !important;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+
+/*------------------------------------------------------------*/
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    padding-right: 0px;
+    padding-right: 100px;
+}
+
+.menu-container img {
+    height: 60px;
+}
+
+
+/*------------------------------    Responsive     ------------------------------*/
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
 }
