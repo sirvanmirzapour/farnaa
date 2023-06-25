@@ -18,7 +18,7 @@
 }
 
 .swiper-pagination-bullet-active {
-    background: #007fee;
+    background: #d90268;
     width: 15px;
     height: 7px;
     border-radius: 10px;
@@ -110,7 +110,7 @@
 }
 
 .offer-title span {
-    color: #007fee;
+    color: #d90268;
 }
 
 .offer-desc {
@@ -137,7 +137,7 @@
 .offer-desc-price .new {
     font-weight: bold;
     font-size: 20px;
-    color: #18978F;
+    color: #d90268;
 }
 
 .offer-timer {
@@ -148,7 +148,7 @@
 }
 
 .offer-timer-item {
-    color: #007fee;
+    color: #d90268;
     width: 60px;
     height: 60px;
     border: 1px solid #f8f8f8;
@@ -177,7 +177,7 @@
 
 .offer-btn a {
     transition: 0.3s all ease-in-out;
-    border: 1px solid #007fee;
+    border: 1px solid #d90268;
     padding: 10px 20px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -197,7 +197,7 @@
 }
 
 .offer-btn a:hover {
-    background: #007fee;
+    background: #d90268;
     color: #fff;
 }
 
@@ -247,14 +247,14 @@
 }
 
 .offer-item-link-item h6 {
-    font-size: 16px;
+    font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
 .offer-item-link .swiper-slide-thumb-active .offer-item-link-item {
-    border-right: 4px solid #007fee;
+    border-right: 4px solid #d90268;
 }
 
 .swiper-slide:not(.swiper-slide-active) .offer-item {

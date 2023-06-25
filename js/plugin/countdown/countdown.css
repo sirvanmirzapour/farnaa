@@ -18,10 +18,9 @@
     align-items: center;
     padding: 5px;
     margin: 0 3px;
-
 }
 
-.countdown-container .seconds-bottom{
+.countdown-container .seconds-bottom {
     color: #c00;
 }
 
@@ -29,7 +28,7 @@
     font-size: 16px;
     font-weight: bold;
     margin: 3px;
-    color: #007fee;
+    color: #d90268;
 }
 
 .countdown-container .countdown-value {
