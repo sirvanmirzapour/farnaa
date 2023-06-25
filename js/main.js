@@ -665,3 +665,33 @@ $(document).ready(function() {
         $("#mfdsab").hide();
     });
 });
+
+
+///offer
+///offer gallery
+var swiper = new Swiper("#offerItemLink", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    a11y: false,
+    freeMode: true,
+    watchSlidesProgress: true,
+    allowTouchMove: false,
+});
+var swiper2 = new Swiper("#offerItem", {
+    effect: "fade",
+    speed: 1000,
+    a11y: false,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    spaceBetween: 10,
+    thumbs: {
+        swiper: swiper,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
