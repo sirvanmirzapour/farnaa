@@ -7,10 +7,10 @@
 .offer {
     height: auto;
     border-radius: 10px;
-    /* padding:10px 0 10px 10px; */
+    padding: 0px 0px 15px 0px;
     background: #fff;
     position: relative;
-    box-shadow: 3px 3px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border: 1px #dcdcdc solid;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -116,6 +116,52 @@
 .offer-desc {
     width: 100%;
     text-align: right;
+}
+
+.offer-desc .se-title h6 {
+    width: 100%;
+    text-align: right;
+    font-size: 15px !important;
+    margin-bottom: 5px !important;
+}
+
+.offer-desc .se-title .text-muted {
+    width: 100%;
+    text-align: right;
+    font-size: 12px !important;
+    margin-bottom: 5px !important;
+}
+
+.offer-desc .se-desc {
+    width: 100%;
+    text-align: right;
+}
+
+.se-desc .se-desc-title {
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.se-desc .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.se-desc .desc {
+    font-size: 14px;
+}
+
+.se-desc li {
+    display: list-item !important;
+}
+
+.offer-desc .text-muted {
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    padding: 10px;
 }
 
 .offer-desc h4 {
