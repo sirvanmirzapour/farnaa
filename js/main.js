@@ -667,6 +667,20 @@ $(document).ready(function() {
 });
 
 
+
+
+//---/hide/---//
+$(document).ready(function() {
+    $(".showl").click(function() {
+        $("#mfdsal").hide();
+        $("#mfdsabl").show();
+    });
+    $(".hidel").click(function() {
+        $("#mfdsal").show();
+        $("#mfdsabl").hide();
+    });
+});
+
 ///offer
 ///offer gallery
 var swiper = new Swiper("#offerItemLink", {

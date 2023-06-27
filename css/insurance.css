@@ -473,8 +473,34 @@ h3 {
     background: #2f2f2f;
 }
 
-.lgn .lgn-content form .disposables {
-    background: #19bfd3;
+.lgn .lgn-temp .lgn-content .showl {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #d90268;
+}
+
+.lgn .lgn-temp .lgn-content .showl:hover {
+    background: #2f2f2f;
+}
+
+.lgn .lgn-temp .lgn-content .hidel {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #d90268;
+}
+
+.lgn .lgn-temp .lgn-content .hidel:hover {
+    background: #2f2f2f;
 }
 
 .lgn .lgn-content .bottom-link {
