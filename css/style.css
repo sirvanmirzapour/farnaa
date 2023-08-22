@@ -1203,8 +1203,8 @@ span.show-less {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    width: 900px;
-    min-height: 450px;
+    width: 1350px !important;
+    min-height: 500px;
     top: 100%;
     right: 0px;
     padding: 15px;
@@ -2346,6 +2346,9 @@ span.show-less {
 
 .blog .blog-box .blog-item .pic-blog img {
     border-radius: 10px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .blog .blog-box .blog-item .pic-blog .user {
