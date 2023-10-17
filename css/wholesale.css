@@ -1,0 +1,41 @@
+.wholesaleHero {
+    padding: 80px 180px 0;
+}
+
+.wholesaleHero__wrapper {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wholesaleHero__top {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.wholesaleHero__title {
+    font-variation-settings: "wght"725;
+    font-size: 30px;
+    line-height: 46px;
+    color: #333333;
+    margin-left: 46px;
+}
+
+.wholesaleHero__online {
+    width: 200px;
+    height: 52px;
+    background: #253A56;
+    border-radius: 8px;
+    font-variation-settings: "wght"600;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}

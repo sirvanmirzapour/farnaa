@@ -1,0 +1,37 @@
+.ins1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ins1 h1 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.ins1 p {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ins1 button {
+    display: block;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #d90268;
+}
+
+.ins1 button:hover {
+    display: block;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #1e294d;
+}
