@@ -1,0 +1,79 @@
+.hmrhadd {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #1e294d;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hmrhadd button {
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    background: transparent;
+}
+
+.hmrhadd i {
+    color: #1e294d;
+    font-size: 12px;
+}
+
+.hmrhadd:hover i {
+    color: #fff;
+}
+
+.hmrhadd:hover button {
+    color: #fff;
+}
+
+.hmrhadd:hover {
+    background: #1e294d;
+}
+
+.hmrhremovemain {
+    display: none;
+}
+
+.hmrhremove {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: #1e294d;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hmrhremove button {
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    background: transparent;
+    color: #fff;
+}
+
+.hmrhremove i {
+    color: #fff;
+    font-size: 12px;
+}
+
+.hmrhremove:hover i {
+    color: #1e294d;
+}
+
+.hmrhremove:hover button {
+    color: #1e294d;
+}
+
+.hmrhremove:hover {
+    border: 1px solid #1e294d;
+    background: transparent;
+}

@@ -128,7 +128,7 @@ $(document).ready(function() {
 
     $(".popular-products .owl-carousel").owlCarousel({
         rtl: true,
-        loop: true,
+        loop: false,
         items: 6,
         nav: true,
         dots: false,
@@ -640,6 +640,8 @@ $(document).ready(function() {
 
 
 });
+
+
 
 
 //---/hide/---//
