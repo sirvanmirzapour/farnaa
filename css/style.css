@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'IranYekan';
-    src: url('../fonts/iranyekanwebregular.eot');
-    src: url('../fonts/iranyekanwebregular.eot') format('embedded-opentype'), url('../fonts/iranyekanwebregular.woff2') format('woff2');
+    src: url('../major/font/YekanBakh-Bold.eot');
+    src: url('../major/font/YekanBakh-Bold.eot') format('embedded-opentype'), url('../major/font/YekanBakh-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
