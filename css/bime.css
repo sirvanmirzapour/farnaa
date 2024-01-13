@@ -1,0 +1,66 @@
+    .buyModalContent__title {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 20px;
+    }
+    
+    .buyModalContent__desc {
+        font-size: 14px;
+        text-align: right;
+        line-height: 30px;
+        color: #a1a3a8;
+        margin: 10px;
+    }
+    
+    .buyModalBody__part2 {
+        padding: 20px;
+        border-bottom: 1px solid #e5e5e5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .modalHeader__titles {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .modalHeader__titles--title1 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    
+    .modalHeader__titles--title2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #a6a6a6;
+    }
+    
+    .buyModalBody__part2 {
+        padding: 20px;
+        border-bottom: 1px solid #e5e5e5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .buyModalBody__part2--title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 0;
+    }
+    
+    .buyModalBody__price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .buyModalBody__price--new {
+        font-size: 16px;
+        font-weight: bold;
+    }
