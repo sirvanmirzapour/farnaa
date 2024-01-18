@@ -1,66 +1,102 @@
-    .buyModalContent__title {
-        font-size: 16px;
-        font-weight: bold;
-        margin: 20px;
-    }
-    
-    .buyModalContent__desc {
-        font-size: 14px;
-        text-align: right;
-        line-height: 30px;
-        color: #a1a3a8;
-        margin: 10px;
-    }
-    
-    .buyModalBody__part2 {
-        padding: 20px;
-        border-bottom: 1px solid #e5e5e5;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .modalHeader__titles {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .modalHeader__titles--title1 {
-        font-size: 16px;
-        font-weight: bold;
-        color: #000;
-        margin-bottom: 10px;
-    }
-    
-    .modalHeader__titles--title2 {
-        font-size: 12px;
-        font-weight: 400;
-        color: #a6a6a6;
-    }
-    
-    .buyModalBody__part2 {
-        padding: 20px;
-        border-bottom: 1px solid #e5e5e5;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .buyModalBody__part2--title {
-        font-size: 16px;
-        font-weight: bold;
-        color: #000;
-        margin-bottom: 0;
-    }
-    
-    .buyModalBody__price {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .buyModalBody__price--new {
-        font-size: 16px;
-        font-weight: bold;
-    }
+        .buyModalContent__title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 20px;
+        }
+        
+        .buyModalContent__desc {
+            font-size: 14px;
+            text-align: right;
+            line-height: 30px;
+            color: #a1a3a8;
+            margin: 10px;
+        }
+        
+        .buyModalBody__part2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        
+        @media (max-width: 800px) {
+            .buyModalBody__part2 {
+                flex-direction: column;
+            }
+        }
+        
+        .buyModalBody__part3 {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        
+        .modalHeader__titles {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .modalHeader__titles--title1 {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        
+        .modalHeader__titles--title2 {
+            font-size: 12px;
+            font-weight: 400;
+            color: #a6a6a6;
+        }
+        
+        .buyModalBody__price {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .buyModalBody__price--new {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .quantity {
+            position: relative;
+            float: right;
+            font-size: 18px;
+        }
+        
+        .quantity .qty {
+            width: 80px;
+            height: 40px;
+            padding: 5px 25px 5px 25px;
+            border-radius: 10px;
+            text-align: center;
+            background: #f1f1f1;
+        }
+        
+        .quantity .qtyminus {
+            right: 0;
+        }
+        
+        .quantity .qtyplus {
+            left: 0;
+        }
+        
+        .quantity .button {
+            position: absolute;
+            top: 50%;
+            padding: 8px;
+            background: none;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+        }
+        
+        .quantity .button:hover {
+            color: #d90268;
+        }
