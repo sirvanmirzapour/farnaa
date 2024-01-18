@@ -100,3 +100,8 @@
         .quantity .button:hover {
             color: #d90268;
         }
+        
+        #myGroup {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
