@@ -1,0 +1,21 @@
+.gall {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gall img {
+    width: 800px!important;
+}
+
+.gall .item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fVXOLQ img {
+    width: 80px;
+    height: auto;
+}
