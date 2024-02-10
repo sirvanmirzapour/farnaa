@@ -364,6 +364,38 @@ table.rounded-corners {
     color: #d90268;
 }
 
+.est {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.est .info-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.est .info-box .item {
+    flex: 50%;
+    margin: 4px;
+}
+
+@media (max-width: 800px) {
+    .est .info-box {
+        flex-direction: column;
+    }
+}
+
+.prc {
+    color: #d90268;
+    font-size: 16px;
+}
+
+.ttl {
+    font-weight: 600;
+}
+
 .est .info-box form .item {
     position: relative;
     margin-bottom: 20px;
@@ -381,7 +413,7 @@ table.rounded-corners {
     display: block;
     margin-bottom: 5px;
     padding-right: 10px;
-    color: #832258;
+    color: #233462;
     font-size: 10px;
 }
 
@@ -399,7 +431,7 @@ table.rounded-corners {
 }
 
 .est .info-box input:focus {
-    border-color: #832258;
+    border-color: #233462;
     box-shadow: none;
 }
 
@@ -408,18 +440,18 @@ table.rounded-corners {
     padding: 15px;
     border-radius: 10px;
     font-size: 14px;
-    border-color: #455a64;
     background: #f1f1f1;
     cursor: pointer;
 }
 
 .est .info-box select:focus {
-    border-color: #832258;
+    border-color: #233462;
     box-shadow: none;
 }
 
 .est .info-box .item .state-box {
     position: relative;
+    color: #233462;
 }
 
 .est .info-box .item .state-box i {
@@ -481,7 +513,30 @@ table.rounded-corners {
 }
 
 .est .info-box .alert span {
-    color: #832258;
+    color: #233462;
     font-size: 14px;
     margin-right: 10px;
+}
+
+.est .info-box .form-control option {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.order-content .order-box table .item td .tdabtn {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #198754!important;
+}
+
+.order-content .order-box table .item td .tdjbtn {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #dc3545!important;
 }
