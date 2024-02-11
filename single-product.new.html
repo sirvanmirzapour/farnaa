@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/hamrah.css" />
     <link rel="stylesheet" href="css/insurance.css" />
     <link rel="stylesheet" href="css/bime.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/colors/color-1.css" id="colorswitch" />
 
 
@@ -3519,32 +3520,74 @@
 
             <div class="product">
                 <div class="row">
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade mdl-main" id="threeD" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="mdl">
+                                        <div class="gallery-product">
+                                            <div id="mdlbig-pic" class="owl-carousel owl-theme">
+                                                <div class="item">
+                                                    <img src="img/products/gallery-01.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-02.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-03.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-04.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-05.jpg" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div id="mdlthumbs" class="owl-carousel owl-theme">
+                                                <div class="item">
+                                                    <img src="img/products/gallery-thumbs-01.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-thumbs-02.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-thumbs-03.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-thumbs-04.jpg" alt="">
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/products/gallery-thumbs-05.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+
                     <div class="col-lg-4 col-md-6">
-                        <div class="threeDModal" data-bs-toggle="modal" data-bs-target="#threeD">
+                        <div>
                             <a href="#">
                                 <img src="img/users/360.webp" alt="" width="50px" height="50px">
                             </a>
                         </div>
                         <div>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="threeD" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">تصویر سه بعدی</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="img/3d.png" alt="" width="100%" height="100%">
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal -->
                         </div>
                         <div class="gallery-product">
                             <div id="big-pic" class="owl-carousel owl-theme">
@@ -3560,13 +3603,6 @@
                                     <img src="img/products/gallery-03.jpg" alt="">
                                 </div>
 
-                                <div class="item">
-                                    <img src="img/products/gallery-04.jpg" alt="">
-                                </div>
-
-                                <div class="item">
-                                    <img src="img/products/gallery-05.jpg" alt="">
-                                </div>
                             </div>
 
                             <div id="thumbs" class="owl-carousel owl-theme">
@@ -3578,17 +3614,16 @@
                                     <img src="img/products/gallery-thumbs-02.jpg" alt="">
                                 </div>
 
-                                <div class="item">
-                                    <img src="img/products/gallery-thumbs-03.jpg" alt="">
+                                <div class="item " data-bs-toggle="modal" data-bs-target="#threeD">
+                                    <img class="blorr" src="img/products/gallery-thumbs-03.jpg" alt="">
+                                    <div class="dNWnce">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><g fill-rule="evenodd"><g><path d="M8 6c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2zM2 6c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2zm12 0c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2z" transform="translate(-1356.000000, -1286.000000) translate(1356.000000, 1286.000000)"></path></g></g></svg>
+                                    </div>
                                 </div>
 
-                                <div class="item">
-                                    <img src="img/products/gallery-thumbs-04.jpg" alt="">
-                                </div>
 
-                                <div class="item">
-                                    <img src="img/products/gallery-thumbs-05.jpg" alt="">
-                                </div>
+
+
                             </div>
 
                         </div>
@@ -5095,6 +5130,7 @@
         </div>
     </div>
 
+
     <!-- ---------- Footer ---------- -->
     <div class="footer">
         <div class="holder-footer">
@@ -5460,6 +5496,7 @@
 
     <!-- Main JS File -->
     <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
     <script src="js/hamrah.js"></script>
 
 </body>
