@@ -10,7 +10,7 @@
 }
 
 .div1 h3 {
-    color: #832258;
+    color: #d90268;
     size: 12px !important;
 }
 
@@ -206,7 +206,7 @@
 .est .header {
     width: 100%;
     height: auto;
-    border: 1px #832258 solid;
+    border: 1px #d90268 solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -217,7 +217,7 @@
 }
 
 .est .header .title-w {
-    color: #832258;
+    color: #d90268;
     font-size: 14;
     font-weight: bold;
     text-align: center;
@@ -225,7 +225,7 @@
 }
 
 .est .header .des {
-    color: #455a64;
+    color: #233462;
     font-size: 14;
 }
 
