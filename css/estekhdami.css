@@ -345,12 +345,13 @@
 }
 
 .est .info-box form .alert {
-    background: #dacddc;
+    background: #ecffea;
     height: auto;
     border-radius: 10px;
-    padding: 15px;
+    padding: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 1px #455a64 solid;
 }
 
 .est .info-box form .alert span {
