@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'IranYekan';
-    src: url('../fonts/YekanBakh-Bold.eot');
-    src: url('../fonts/YekanBakh-Bold.eot') format('embedded-opentype'), url('../fonts/YekanBakh-Bold.woff2') format('woff2');
+    src: url('../fonts/YekanBakhFaNum-SemiBold.otf');
+    src: url('../fonts/YekanBakhFaNum-SemiBold.otf') format('embedded-opentype'), url('../fonts/YekanBakhFaNum-SemiBold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -506,7 +506,7 @@ body {
 }
 
 .mask-text-product-summary.active {
-    max-height: 680px !important;
+    max-height: 680px;
 }
 
 .content-expert-summary .is-masked .mask-text-product-summary {
@@ -883,7 +883,7 @@ span.show-less {
     width: 100%;
     font-size: 14px;
     background: #f1f1f1;
-    padding: 14px;
+    padding: 14px !important;
     border-radius: 10px;
     border: 1px #dcdcdc solid;
 }
@@ -891,10 +891,11 @@ span.show-less {
 .middle-menu .search-top .search-warp button {
     position: absolute;
     left: 0px;
-    padding: 15px;
+    padding: 15px !important;
     font-size: 20px;
-    background: none;
+    background: none !important;
     color: #2f2f2f;
+    border: none;
 }
 
 .middle-menu .holder-left {
@@ -1203,7 +1204,7 @@ span.show-less {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    width: 1350px !important;
+    width: 1350px;
     min-height: 500px;
     top: 100%;
     right: 0px;
@@ -2534,7 +2535,7 @@ menu .mega-menu .category-list .category-item .sub-holder-row a:hover {
     top: 100%;
     left: 0;
     right: 0;
-    margin-top: -6px;
+    margin-top: -20px;
     background-color: #f1f1f1;
     border-radius: 0 0 10px 10px;
     padding: 15px;
@@ -2927,6 +2928,7 @@ menu .mega-menu .category-list .category-item .sub-holder-row a:hover {
 
 .footer .footer-content {
     padding: 30px 0;
+    border-top: 1px solid #e8e8e8;
 }
 
 .footer .footer-content .description .title {
@@ -7527,18 +7529,19 @@ menu .mega-menu .category-list .category-item .sub-holder-row a:hover {
 
 .search-mobile-header form input {
     width: 100%;
-    padding: 12px;
-    font-size: 15px;
+    padding: 12px !important;
+    font-size: 15px !important;
     border-radius: 10px;
     border: 1px solid #f1f1f1;
     background: #f1f1f1;
 }
 
 .search-mobile-header form button {
-    padding: 15px;
+    padding: 15px !important;
     font-size: 20px;
     border-radius: 15px 0 0 15px;
-    background: none;
+    background: none !important;
+    border: none;
 }
 
 
@@ -7876,7 +7879,6 @@ menu .mega-menu .category-list .category-item .sub-holder-row a:hover {
     }
     .footer .footer-content .description {
         margin-bottom: 30px;
-        border-top: 1px solid #e8e8e8;
     }
     .footer .footer-middle .middle-left {
         margin-top: 30px;
