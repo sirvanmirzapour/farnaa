@@ -560,7 +560,7 @@ table.rounded-corners {
   border-radius: 10px;
   background: #ffffff;
   border: 1px #dcdcdc solid;
-  min-height: 280px;
+  min-height: 300px;
 }
 
 .sabad-products .holder-products h5 {
@@ -679,6 +679,7 @@ table.rounded-corners {
   font-size: 12px;
   padding: 4px 8px 4px 8px;
   width: 100%;
+  margin-top: 4px;
 }
 .sabad-products .holder-item .product-info .product-bottom .btn:hover {
   background: #d90268;
