@@ -19,122 +19,898 @@
 
     <!-- Main CSS File -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/hamkar.css" />
+    <link rel="stylesheet" href="css/filterShop.css" />
 </head>
 
 <body>
     <!-- ---------- Best seller Products ---------- -->
-    <div class="sabad-products">
-        <div class="holder-products">
-            <div id="head-title ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="title f-parent">
-                                <h5>
-                                    سبد پیشنهادی
-                                </h5>
+
+    <div class="shop-product">
+        <div class="shop">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 order-2 order-lg-1  d-none d-lg-block">
+                    <div class="filter">
+                        <div class="category">
+                            <div class="title">
+                                <span>
+                                    فیلترها:
+                                </span>
                             </div>
+                            <div class="available-acc">
+
+                                <input type="checkbox" id="toggle" class="toggle-item">
+                                <label for="toggle"></label>
+
+                                <label for="" class="text">
+                                    فقط کالاهای موجود
+                                </label>
+                            </div>
+                            <div class="accordion " id="filter">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            دسته بندی محصولات
+                                        </button>
+                                        </h23>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#filter">
+                                            <div class="accordion-body">
+                                                <div class="brand-acc">
+                                                    <div class="brand-acc-box">
+                                                        <label class="item">
+                                                            موبایل
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            پاوربانک
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            مچ بند و ساعت هوشمند
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            فلش مموری
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            کیف و کاور
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            اسپیکر
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            آداپتور و شارژر
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            محافظ لنز دوربین
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            محافظ لنز دوربین
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            محافظ لنز دوربین
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                        <label class="item">
+                                                            محافظ لنز دوربین
+                                                            <input type="checkbox">
+                                                            <span class="tick">
+                                                                <i class="fal fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            براساس برند
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="brand-acc">
+                                                <div class="brand-acc-box">
+                                                    <label class="item">
+                                                        اپل
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        سامسونگ
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        شیائومی
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        نوکیا
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        آنر
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        شیائومی
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        ریلمی
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        جی پلاس
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            براساس رنگ
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="color-acc">
+                                                <div class="color-acc-box f-parent">
+                                                    <span id="color" class="color-item color-1">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-2">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-3">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-4">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-5">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-6">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-7">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-8">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-9">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                    <span id="color" class="color-item color-10">
+                                                        <i class="fal fa-check"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            براساس قیمت
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="price-acc">
+                                                <div class="price-acc-box">
+                                                    <div class="wrapper">
+                                                        <div class="price-input">
+                                                            <div class="field">
+                                                                <span>از</span>
+                                                                <input type="number" class="input-min" value="5000000">
+                                                                <span>تومان</span>
+                                                            </div>
+                                                            <div class="field">
+                                                                <span>تا</span>
+                                                                <input type="number" class="input-max" value="30000000">
+                                                                <span>تومان</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider">
+                                                            <div class="progress"></div>
+                                                        </div>
+                                                        <div class="range-input">
+                                                            <input type="range" class="range-min" min="0" max="50000000"
+                                                                value="5000000" step="100">
+                                                            <input type="range" class="range-max" min="0" max="50000000"
+                                                                value="30000000" step="100">
+                                                        </div>
+                                                    </div>
+
+                                                    <span class="price-button">
+                                                        <a class="trs-3" href="#">
+                                                            اعمال محدودیت
+                                                        </a>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            تعداد سیم کارت
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="brand-acc">
+                                                <div class="brand-acc-box">
+                                                    <label class="item">
+                                                        یک عدد
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        دو عدد
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="brand-acc">
+                                                <div class="brand-acc-box">
+                                                    <label class="item">
+                                                        1 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        2 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        3 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        4 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        5 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        6 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        7 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        8 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            رده بندی
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="brand-acc">
+                                                <div class="brand-acc-box">
+                                                    <label class="item">
+                                                        میان رده
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        اقتصادی
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        پرچم دار
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        گیمینگ
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            <div class="brand-acc">
+                                                <div class="brand-acc-box">
+                                                    <label class="item">
+                                                        1 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        2 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        3 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        4 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        5 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        6 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        7 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+                                                    <label class="item">
+                                                        8 گیگابایت
+                                                        <input type="checkbox">
+                                                        <span class="tick">
+                                                            <i class="fal fa-check"></i>
+                                                        </span>
+                                                    </label>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="button-filter">
+                            <a class="trs-3" href="#">
+                                فیلتر
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-12  d-lg-none">
+                    <div class="header-filters">
+                        <div class="advance-header">
+                            <button class="btn-filter btn-filter-advanced"
+                                onclick="document.getElementById('modal-search').style.display='block'">جستجوی
+                                پیشرفته</button>
+                            <button type="button" class="btn-filter btn-filter-advanced" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">مرتب سازی</button>
+                        </div>
+                        <div class="remodal-search-advanced" id="modal-search">
+                            <nav class="remodal-page-layout">
 
-            <div class="products" style="margin-top: -20px">
-                <div class="container">
-                    <div class="row">
-                        <div class="owl-carousel nav-arrow">
-                            <div class="col-12">
-                                <div class="holder-item trs-3">
-                                    <div class="countdown-main">
-                                        <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                        </div>
-                                    </div>
-                                    <div class="product-pic">
-                                        <span class="holder-pic">
-                                            <img src="img/products/product-new-01.jpg " alt=" " />
-                                        </span>
-                                    </div>
-                                    <div class="product-info">
-                                        <span class="title mb-1">
-                                            <a href="single-product.html " class="trs-3">
-                                                سبد موبایل شماره یک
-                                            </a>
-                                        </span>
 
-                                        <ul class="trs-3">
-                                            <li>گوشی سامسونگ مدل A01</li>
-                                            <li>گوشی سامسونگ مدل A02</li>
-                                            <li>گوشی سامسونگ مدل A03</li>
-                                        </ul>
+                                <div class="remodal-page-main">
+                                    <div class="shop-product">
+                                        <div class="filter-product">
+                                            <div class="filter-shop">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-4 order-2 order-lg-1">
+                                                        <div class="filter">
+                                                            <div class="category">
+                                                                <div class="title">
+                                                                    <span>
+                                                                        فیلترها:
+                                                                    </span>
+                                                                </div>
+                                                                <div class="available">
+                                                                    <input type="checkbox" id="toggle"
+                                                                        class="toggle-item">
+                                                                    <label for="toggle"></label>
+                                                                    <label for="" class="text">
+                                                                        فقط کالاهای موجود
+                                                                    </label>
+                                                                </div>
+                                                                <div class="accordion " id="filter">
 
-                                        <div class="product-bottom f-parent">
+                                                                    <div class="accordion-item">
+                                                                        <h3 class="accordion-header" id="headingOne">
+                                                                            <button class="accordion-button"
+                                                                                type="button" data-bs-toggle="collapse"
+                                                                                data-bs-target="#collapseOne"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapseOne">
+                                                                                دسته بندی محصولات
+                                                                            </button>
+                                                                            </h23>
+                                                                            <div id="collapseOne"
+                                                                                class="accordion-collapse collapse show"
+                                                                                aria-labelledby="headingOne"
+                                                                                data-bs-parent="#filter">
+                                                                                <div class="accordion-body">
+                                                                                    <div class="brand">
+                                                                                        <div class="brand-box">
+                                                                                            <label class="item">
+                                                                                                موبایل
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                پاوربانک
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                مچ بند و ساعت هوشمند
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                فلش مموری
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                کیف و کاور
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                اسپیکر
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                آداپتور و شارژر
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                محافظ لنز دوربین
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                محافظ لنز دوربین
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                محافظ لنز دوربین
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                            <label class="item">
+                                                                                                محافظ لنز دوربین
+                                                                                                <input type="checkbox">
+                                                                                                <span class="tick">
+                                                                                                    <i
+                                                                                                        class="fal fa-check"></i>
+                                                                                                </span>
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header" id="headingTwo">
+                                                                            <button class="accordion-button collapsed"
+                                                                                type="button" data-bs-toggle="collapse"
+                                                                                data-bs-target="#collapseTwo"
+                                                                                aria-expanded="false"
+                                                                                aria-controls="collapseTwo">
+                                                                                براساس برند
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="collapseTwo"
+                                                                            class="accordion-collapse collapse"
+                                                                            aria-labelledby="headingTwo"
+                                                                            data-bs-parent="#filter">
+                                                                            <div class="accordion-body">
+                                                                                <div class="brand">
+                                                                                    <div class="brand-box">
+                                                                                        <label class="item">
+                                                                                            اپل
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            سامسونگ
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            شیائومی
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            نوکیا
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            آنر
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            شیائومی
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            ریلمی
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
+                                                                                        <label class="item">
+                                                                                            جی پلاس
+                                                                                            <input type="checkbox">
+                                                                                            <span class="tick">
+                                                                                                <i
+                                                                                                    class="fal fa-check"></i>
+                                                                                            </span>
+                                                                                        </label>
 
-                                            <span class="pric">
-                                                <del> 22.000.000 تومان </del>
-                                                <ins> 15.000.000 تومان </ins>
-                                            </span>
-                                            <div class="mainBtn">
-                                                <button class="btn">ثبت
-                                                    سفارش</button>
-                                                <span class="count">تعداد باقیمانده: 2</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header" id="headingThree">
+                                                                            <button class="accordion-button collapsed"
+                                                                                type="button" data-bs-toggle="collapse"
+                                                                                data-bs-target="#collapseThree"
+                                                                                aria-expanded="false"
+                                                                                aria-controls="collapseThree">
+                                                                                براساس رنگ
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="collapseThree"
+                                                                            class="accordion-collapse collapse"
+                                                                            aria-labelledby="headingThree"
+                                                                            data-bs-parent="#filter">
+                                                                            <div class="accordion-body">
+                                                                                <div class="color">
+                                                                                    <div class="color-box f-parent">
+                                                                                        <span id="color"
+                                                                                            class="color-item color-1">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-2">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-3">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-4">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-5">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-6">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-7">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-8">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-9">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                        <span id="color"
+                                                                                            class="color-item color-10">
+                                                                                            <i class="fal fa-check"></i>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="button-filter">
+                                                                <a class="trs-3" href="#">
+                                                                    فیلتر
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="holder-item trs-3">
-                                    <div class="countdown-main">
-                                        <div class='countdown' data-date="2024-06-30" data-time="18:30">
-                                        </div>
-                                    </div>
-                                    <div class="product-pic">
-                                        <span class="holder-pic">
-                                            <img src="img/products/product-new-01.jpg " alt=" " />
-                                        </span>
-                                    </div>
-                                    <div class="product-info">
-                                        <span class="title mb-1">
-                                            <a href="single-product.html " class="trs-3">
-                                                سبد موبایل شماره دوم
-                                            </a>
-                                        </span>
-
-                                        <ul class="trs-3">
-                                            <li>گوشی سامسونگ مدل A11</li>
-                                            <li>گوشی سامسونگ مدل A22</li>
-                                            <li>گوشی سامسونگ مدل A23</li>
-                                            <li>گوشی سامسونگ مدل A24</li>
-                                            <li>گوشی سامسونگ مدل A23</li>
-                                        </ul>
-
-                                        <div class="product-bottom f-parent">
-
-                                            <span class="pric">
-                                                <del> 12.000.000 تومان </del>
-                                                <ins> 10.000.000 تومان </ins>
-                                            </span>
-                                            <div class="mainBtn">
-
-                                                <button class="btn">ثبت
-                                                    سفارش</button>
-                                                <span class="count">تعداد باقیمانده: 6</span>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                            </nav>
                         </div>
                     </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        <p class="text">
+                                            مرتب سازی بر اساس
+                                        </p>
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="shop-content">
+                                        <div class="tabs">
+                                            <ul class="tabs-nav">
+                                                <li class="nav-item" data-bs-dismiss="modal">
+                                                    <a class="trs-3" href="#tab-1">
+                                                        جدیدترین
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item" data-bs-dismiss="modal">
+                                                    <a class="trs-3" href="#tab-2">
+                                                        پرفروش ترین
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item" data-bs-dismiss="modal">
+                                                    <a class="trs-3" href="#tab-3">
+                                                        ارزان ترین
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item" data-bs-dismiss="modal">
+                                                    <a class="trs-3" href="#tab-4">
+                                                        گران ترین
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item" data-bs-dismiss="modal">
+                                                    <a class="trs-3" href="#tab-5">
+                                                        پیشنهاد ویژه
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- ---------- Footer ---------- -->
     <div class="footer">
@@ -422,14 +1198,14 @@
                                     در تلاش برای خدمتگذاری با تمام توان به خریداران این محصولات هستیم. اطمینان از اصالت
                                     کالا را سرلوحه تمامی اقدامات خود قرار داده‌ایم تا اعتماد شما به فرنا را ارج نهیم.
                                     همچنین با اتکا به کارشناسان با انگیزه و با تجربه، آماده پاسخگویی به سوالات و ابهامات
-                                    شما هم بعد و هم قبل از خرید محصولات هستیم. به پشتوانه
-                                    سال‌ها خدمت تخصصی در زمینه فروش تجهیزات تکنولوژیک (اعم از گوشی موبایل، لوازم جانبی،
-                                    لوازم خانگی، کنسول های بازی و سایر تجهیزات)، امروزه در بستر اینترنت نیز در تلاش برای
-                                    خدمتگذاری با تمام توان به خریداران این محصولات
-                                    هستیم. اطمینان از اصالت کالا را سرلوحه تمامی اقدامات خود قرار داده‌ایم تا اعتماد شما
-                                    به فرنا را ارج نهیم. همچنین با اتکا به کارشناسان با انگیزه و با تجربه، آماده
-                                    پاسخگویی به سوالات و ابهامات شما هم بعد و هم قبل از خرید
-                                    محصولات هستیم.
+                                    شما هم بعد و هم قبل از خرید محصولات
+                                    هستیم. به پشتوانه سال‌ها خدمت تخصصی در زمینه فروش تجهیزات تکنولوژیک (اعم از گوشی
+                                    موبایل، لوازم جانبی، لوازم خانگی، کنسول های بازی و سایر تجهیزات)، امروزه در بستر
+                                    اینترنت نیز در تلاش برای خدمتگذاری با تمام
+                                    توان به خریداران این محصولات هستیم. اطمینان از اصالت کالا را سرلوحه تمامی اقدامات
+                                    خود قرار داده‌ایم تا اعتماد شما به فرنا را ارج نهیم. همچنین با اتکا به کارشناسان با
+                                    انگیزه و با تجربه، آماده پاسخگویی به
+                                    سوالات و ابهامات شما هم بعد و هم قبل از خرید محصولات هستیم.
                                 </p>
                             </div>
                         </div>
@@ -508,9 +1284,8 @@
     <script src="js/owl.carousel.min.js "></script>
 
     <!-- Main JS File -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js "></script>
-    <script src="js/hamkar.js "></script>
+    <script src="js/filterShop.js "></script>
+
 </body>
 
 </html>
