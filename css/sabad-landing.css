@@ -31,14 +31,21 @@
   }
 }
 
-.sbd3 {
+.sbd3-content {
   flex-grow: 1;
-  background: #fff;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 4px;
+}
+.sbd3 {
   display: flex;
   flex-direction: column;
   padding: 10px;
   margin: 4px;
+  background: #fff;
+  border-radius: 10px;
+  height: 100%;
 }
 
 .sbd3 h3 {
@@ -68,6 +75,38 @@
   margin: 10px;
 }
 
+.sbd3-content .sbd3-gift {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 4px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.sbd3-content .sbd3-gift .gift-title span {
+  font-size: 14px;
+}
+.sbd3-content .sbd3-gift .gift-title img {
+  width: 30px;
+  height: auto;
+}
+.sbd3-content .sbd3-gift .gift-body {
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+.sbd3-content .sbd3-gift .gift-body a {
+  font-size: 14px;
+}
+.sbd3-content .sbd3-gift .gift-body img {
+  width: 50px;
+  height: auto;
+}
+
 .sbd4 {
   flex-grow: 1;
   border-radius: 10px;
@@ -75,8 +114,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  margin: 4px;
+  padding: 5px;
 }
 .sbd4 .e-con-inner {
   width: 100%;
@@ -155,8 +193,7 @@
 .sbd5 {
   background: #fff;
   border-radius: 10px;
-  padding: 12px;
-  margin-top: 8px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -168,10 +205,32 @@
   margin-top: 8px;
   width: 100%;
 }
-
+.sbd5 .sbd6 span {
+  margin-lef: 10px;
+}
+@media (max-width: 840px) {
+  .sbd5 {
+    display: flex;
+    width: 95%;
+    position: fixed;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    z-index: 8;
+    box-shadow: 5px 2px 31px rgba(0, 0, 0, 0.17) !important;
+  }
+  .sbd5 .sbd6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sbd5 .price-product {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
 .sbd5 .price-product {
   padding: 10px 0;
-
   text-align: left;
 }
 
@@ -261,10 +320,16 @@
 .sbd5 .sale-button-sbd-bas a:hover {
   color: #d90268;
 }
+
+.sbd5 .sbd-add-cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
 .sbd5 .count-sdb {
   font-size: 13px;
-  margin-top: 14px;
-  padding: 14px;
+  padding: 4px;
 }
 
 .sbd-product {
@@ -283,6 +348,10 @@
   width: 100%;
   height: auto;
   padding: 10px;
+}
+.sbd-product .product-item img {
+  width: auto;
+  height: 70px;
 }
 
 .sbd-product .product-item .product-name {
