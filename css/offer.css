@@ -294,7 +294,7 @@
   -o-border-radius: 7px;
 }
 
-.offer-item-link-item h6 {
+.offer-item-link-item span {
   font-size: 14px;
   text-overflow: ellipsis;
   overflow: hidden;
