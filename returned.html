@@ -2,8 +2,7 @@
 
 <head lang="fa">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,
-            maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1">
 
     <title>فروشگاه اینترنتی فرنا</title>
     <link rel="shortcut icon" href="img/favicon.png">
@@ -19,13 +18,12 @@
 
     <!-- Main CSS File -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/filter.css" />
-    <link rel="stylesheet" href="css/hamkar.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/returned.css" />
     <link rel="stylesheet" href="css/colors/color-1.css" id="colorswitch" />
 </head>
 
 <body>
-
     <!-- ---------- Loding ---------- -->
     <div id="loading-wrapper">
         <div class="content-loaging">
@@ -35,7 +33,6 @@
             <span></span>
         </div>
     </div>
-
     <!-- ---------- Header ---------- -->
     <div class="header shadows">
         <div class="header-container">
@@ -76,7 +73,7 @@
 
                                     <div class="search-top search-box">
                                         <form class="search-warp">
-                                            <input type="text" placeholder="جستجو محصولات ...">
+                                            <input type="text" placeholder="جستجو محصولات...">
                                             <button>
                                                 <i class="fal fa-search"></i>
                                             </button>
@@ -110,8 +107,7 @@
                         <div class="col-lg-4 col-md-8 col-7">
                             <div class="holder-left">
                                 <ul class="header-left">
-                                    <li class="hl-item h-cart" style="border: 1px #dcdcdc solid;
-                                    border-radius: 10px;">
+                                    <li class="hl-item h-cart" style="border: 1px #dcdcdc solid; border-radius: 10px;">
                                         <a href="#" class="hl-btn trs-3">
                                             <i class="fal fa-shopping-bag"></i>
                                         </a>
@@ -278,7 +274,6 @@
                                                 </p>
                                             </span> </a>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -293,10 +288,7 @@
                             <div class="holder-menu d-none d-lg-block">
                                 <ul class="menu">
                                     <li class="menu-item">
-                                        <a href="shop.html" class="menu-text
-                                                trs-3" style="background:
-                                                #d90268; border-radius: 5px;
-                                                padding-left: 20px;
+                                        <a href="shop.html" class="menu-text trs-3" style="background:  #d90268; border-radius: 5px;     padding-left: 20px;
                                                 padding-right: 20px; color:
                                                 #fff;">
                                             محصولات
@@ -3480,6 +3472,8 @@
                                                         <!---->
                                                     </ul>
                                                 </li>
+
+
                                             </ul>
                                         </li>
                                     </ul>
@@ -3493,2128 +3487,385 @@
         </div>
     </div>
 
-
-
-    <!-- ---------- Shop ---------- -->
-    <div class="shop-product">
+    <!-- ---------- Dashboard Orders ---------- -->
+    <div class="dashboard-profile">
         <div class="container">
             <div class="address-bar">
                 <ul class="box-address">
                     <li class="item">
                         <a class="trs-3" href="#">
-                            فرنا
+                            خانه
+                            <i class="fal fa-chevron-left"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="trs-3" href="#">
+                            داشبورد کاربری
                             <i class="fal fa-chevron-left"></i>
                         </a>
                     </li>
                     <li class="item active">
-                        <h1 style="size: 12px;"> لیست قیمت محصولات همکاری </h1>
+                        <a class="trs-3" href="#">
+                            سفارشات
+                        </a>
                     </li>
                 </ul>
             </div>
-            <!-- ---------- Slider ---------- -->
-
-            <div class="slider ">
-                <div class="slider-cotainer">
-                    <div class="owl-carousel d-none d-lg-block">
-                        <div class="slider-item ">
-                            <a href="#">
-                                <img src="img/slider/1.webp" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-item ">
-                            <a href="#">
-                                <img src="img/slider/2.webp" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-item ">
-                            <a href="#">
-                                <img src="img/slider/3.webp" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="owl-carousel d-lg-none">
-                        <div class="slider-item">
-                            <a href="#">
-                                <img src="img/slider/4.webp" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="#">
-                                <img src="img/slider/5.webp" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="#">
-                                <img src="img/slider/6.webp" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!---------start sabad-------->
-            <div class="sabad-products">
-                <div class="holder-products">
-                    <div id="head-title ">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="title f-parent">
-                                        <h5>
-                                            سبد پیشنهادی
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="products" style="margin-top: -20px">
-                        <div class="container">
-                            <div class="row">
-                                <div class="owl-carousel nav-arrow">
-                                    <div class="col-12">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-06-30" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره دوم
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A11</li>
-                                                    <li>گوشی سامسونگ مدل A22</li>
-                                                    <li>گوشی سامسونگ مدل A23</li>
-                                                    <li>گوشی سامسونگ مدل A24</li>
-                                                    <li>گوشی سامسونگ مدل A23</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 12.000.000 تومان </del>
-                                                        <ins> 10.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 6</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-06-30" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره دوم
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A11</li>
-                                                    <li>گوشی سامسونگ مدل A22</li>
-                                                    <li>گوشی سامسونگ مدل A23</li>
-                                                    <li>گوشی سامسونگ مدل A24</li>
-                                                    <li>گوشی سامسونگ مدل A23</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 12.000.000 تومان </del>
-                                                        <ins> 10.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 6</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!---------end sabad-------->
-
-            <!-- ---------- Best seller Products ---------- -->
-            <div class="sabad-products ">
-                <div class="holder-products ">
-                    <div id="head-title ">
-                        <div class="container ">
-                            <div class="row ">
-                                <div class="col-12 ">
-                                    <div class="title f-parent ">
-                                        <h5
-                                            style="border-bottom:2px #d90268 solid; padding-bottom: 8px; width: fit-content;">
-                                            پرفروشترین های فرنا
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="products " style="margin-top: -20px;">
-                        <div class="container ">
-                            <div class="row ">
-                                <div class="owl-carousel nav-arrow ">
-                                    <div class="col-12 ">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 ">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 ">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 ">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
-                                                </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!---------end sabad-------->
-
-
-            <div class="shop">
+            <div class="profile">
                 <div class="row">
-                    <div class="col-12">
-                        <!--new-->
-                        <div class="est">
-                            <div class="info-box">
-                                <div class="item f-parent">
-                                    <label for="inputState"> </label>
-                                    <div class="state-box">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>مرتب سازی براساس دسته بندی</option>
-                                            <option>موبایل</option>
-                                            <option>تبلت </option>
-                                            <option>ساعت هوشمند </option>
-                                            <option>لپ تاپ </option>
-                                        </select>
-                                        <i class="fal fa-chevron-down"></i>
-                                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="right-box">
+                            <div class="profile-box">
+                                <div class="header-profile">
+                                    <span class="pic">
+                                        <img src="img/users/user-02.jpg" alt="">
+                                        <a class="edit" href="#">
+                                            <i class="fal fa-pen"></i>
+                                        </a>
+                                    </span>
+                                    <span class="name">
+                                        <strong>
+                                            سیروان میرزاپور
+                                        </strong>
+                                        <p>
+                                            مشتری
+                                        </p>
+                                    </span>
                                 </div>
-                                <div class="item f-parent">
-                                    <label for="inputState"> </label>
-                                    <div class="state-box">
-                                        <select id="inputState" class="form-control  ">
-                                            <option selected>مرتب سازی براساس برند </option>
-                                            <option>اپل</option>
-                                            <option>سامسونگ </option>
-                                            <option>شیائومی </option>
-                                            <option>نوکیا </option>
-                                            <option>آنر </option>
-                                            <option>ایسوس </option>
-                                            <option>هواوی </option>
-                                        </select>
-                                        <i class="fal fa-chevron-down"></i>
-                                    </div>
+                                <div class="options">
+                                    <span>
+                                        <p>
+                                            کیف پول
+                                        </p>
+                                        <strong>
+                                            200.000 تومان
+                                        </strong>
+                                    </span>
+                                    <span>
+                                        <p>
+                                            امتیاز شما
+                                        </p>
+                                        <strong>
+                                            200 امتیاز
+                                        </strong>
+                                    </span>
+                                </div>
+                                <div class="buttons">
+                                    <a class="trs-3" href="#">
+                                        تغییر رمز
+                                    </a>
+                                    <a class="trs-3" href="#">
+                                        خروج
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <!--new-->
-                    </div>
 
-                    <div class="col-12 col-12 order-lg-2 d-none d-lg-block">
+                            <div class="profile-menu">
+                                <div class="title">
+                                    <h6>
+                                        حساب کاربری شما
+                                    </h6>
+                                </div>
+                                <ul class="menu">
+                                    <li class="item">
+                                        <a class="trs-3" href="#">
+                                            <i class="fal fa-user"></i> پروفایل
+                                        </a>
+                                    </li>
+                                    <li class="item ">
+                                        <a class="trs-3" href="#">
+                                            <i class="fal fa-shopping-bag"></i> همه سفارشات
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="trs-3" href="#">
+                                            <i class="fal fa-heart"></i> علاقمندی ها
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="trs-3" href="#">
+                                            <i class="fal fa-user-edit"></i> اطلاعات حساب
+                                        </a>
+                                    </li>
+                                    <li class="item active">
+                                        <a class="trs-3" href="#">
+                                            <i class="fal fa-recycle"></i> درخواست مرجوعی
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="trs-3" href="#">
+                                            <i class="fal fa-sign-out"></i> خروج
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
                         <div class="order-content">
-                            <div class="title" style="text-align: center;">
-                                <h3>
-                                    لیست قیمت محصولات همکاری
-                                </h3>
+                            <div class="title">
+                                <h5>
+                                    انتخاب کالاهی مرجوعی
+                                </h5>
                             </div>
-
-                            <div class="order-box">
-                                <table class="table-h">
-                                    <thead class="thead-dark">
-                                        <tr class="title">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                تصویر
-                                            </td>
-
-                                            <td>
-                                                نام محصول
-                                            </td>
-                                            <td>
-                                                مشخصات
-                                            </td>
-                                            <td>
-                                                قیمت
-                                            </td>
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                ثبت سفارش
-                                            </td>
-
-                                            <td>
-                                                جزئیات
-                                            </td>
-
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        <tr class="item pst">
-                                            <td class="discount-full-2">
-                                                <p class="vertical_text_content">
-                                                    شگفتانه
-                                                </p>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/1.webp" alt="">
-                                            </td>
-
-
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-
-
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td class="discount-full-2">
-                                                <p class="vertical_text_content">
-                                                    شگفتانه
-                                                </p>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/2.webp" alt="">
-                                            </td>
-
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td class="discount-full-2">
-                                                <p class="vertical_text_content">
-                                                    شگفتانه
-                                                </p>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/3.webp" alt="">
-                                            </td>
-
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td class="discount-full-2">
-                                                <p class="vertical_text_content">
-                                                    شگفتانه
-                                                </p>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/4.webp" alt="">
-                                            </td>
-
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/5.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/6.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/7.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/8.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/1.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/10.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/1.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/2.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                        <tr class="item pst">
-                                            <td>
-
-                                            </td>
-                                            <td>
-                                                <img src="img/pru/4.webp" alt="">
-                                            </td>
-                                            <td class="ttl">
-                                                تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                            </td>
-                                            <td>
-                                                حافظه رم: 6 گیگابایت
-                                                <br>حافظه: 256 گیگابایت<br> رنگ: مشکی
-                                            </td>
-
-
-                                            <td class="prc">
-                                                15.000.000 تومان
-                                            </td>
-                                            <td>
-
-
-                                            </td>
-                                            <td>
-                                                <a href="#" class="tdabtn" data-bs-toggle="modal"
-                                                    data-bs-target="#modal-prc">انتخاب</a>
-                                            </td>
-
-
-                                            <td>
-                                                <a href="#" class="tdjbtn">جزییات</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <!--mobile-->
-
-                    <div class="col-xl-9 col-lg-8 order-lg-2 d-lg-none">
-                        <div class="order-content" style="border: none;">
-                            <div class="title" style="text-align: center;">
-                                <h3>
-                                    لیست قیمت محصولات همکاری
-                                </h3>
-                            </div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3" style="border: 1px #233462 solid;">
-                                            <span class="discount-full">شگفت انگیز</span>
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/1.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جزییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3" style="border: 1px #233462 solid;">
-                                            <span class="discount-full">شگفت انگیز</span>
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/2.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3" style="border: 1px #233462 solid;">
-                                            <span class="discount-full">شگفت انگیز</span>
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/3.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/4.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/5.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/6.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/7.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/8.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/5.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/10.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/2.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box p-4 mt-3">
-                                            <div class="text-lg-right text-center">
-                                                <a href="#">
-                                                    <img src="img/pru/2.webp" alt=""
-                                                        class="img-fluid rounded-circle mb-lg-0 mb-3" />
-                                                </a>
-                                            </div>
-                                            <div class="pr-lg-3 text-lg-right text-center">
-                                                <ul>
-                                                    <li>
-                                                        <p class="ttl">تلویزیون ال ای دی هوشمند تلویزیون ال ای دی هوشمند
-                                                        </p>
-                                                        <p>رم: 16 گیگ</p>
-                                                        <p>حافظه: 256 گیگ</p>
-                                                        <p>رنگ: مشکی</p>
-                                                        <p class="prc">قیمت: 15.000.000 تومان</p>
-                                                    </li>
-                                                    <li class="float-lg-left">
-                                                        <a href="#" class="btn btn-danger text-white rad25 mt-2"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#modal-prc">انتخاب</a>
-                                                        <a href="#"
-                                                            class="btn btn-success text-white rad25 mt-2">جرییات</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="modal-bime" tabindex="-1" aria-labelledby="Label"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-sl">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">انتخاب کنید</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="sales-info">
-                                                <div class="color-product">
-                                                    <p class="title">
-                                                        رنگ محصول:
-                                                    </p>
-                                                    <div class="color-box f-parent">
-                                                        <button>
-                                                            <span id="color" class="color green">
-                                                                <i class="fal fa-check"></i>
-                                                            </span>
-                                                        </button>
-                                                        <button>
-                                                            <span id="color" class="color blue">
-                                                                <i class="fal fa-check"></i>
-                                                            </span>
-                                                        </button>
-                                                        <button>
-                                                            <span id="color" class="color" style="background: #3d3b3c;">
-                                                                <i class="fal fa-check" style="color: #fff;"></i>
-                                                            </span>
-                                                        </button>
-                                                        <button>
-                                                            <span id="color" class="color"
-                                                                style="background-color: blueviolet;">
-                                                                <i class="fal fa-check" style="color: #fff;"></i>
-                                                            </span>
-                                                        </button>
-
-                                                    </div>
-                                                </div>
-                                                <!---->
-                                                <div>
-                                                    <div id="myGroup">
-                                                        <div style="display: flex; flex-direction: column; gap: 10px;">
-                                                            <input type="radio" class="btn-check"
-                                                                name="options-outlined" id="btn-no" autocomplete="off"
-                                                                checked>
-                                                            <label class="btn btn-outline-secondary" for="btn-no">
-                                                                <div class="buyModalBody__part3 ">
-
-                                                                    <div class="buyModalBody__part2--title">
-                                                                        18ماه گارانتی نوزده تجارت خاورمیانه
-                                                                    </div>
-                                                                </div>
-                                                            </label>
-
-                                                            <input type="radio" class="btn-check"
-                                                                name="options-outlined" id="success-outlined"
-                                                                autocomplete="off">
-                                                            <label class="btn btn-outline-success"
-                                                                for="success-outlined">
-                                                                <div class="buyModalBody__part3 ">
-
-                                                                    <div class="buyModalBody__part2--title">
-                                                                        18ماه گارانتی نوزده تجارت آسیا
-                                                                    </div>
-                                                                </div>
-                                                            </label>
-                                                            <input type="radio" class="btn-check"
-                                                                name="options-outlined" id="danger-outlined"
-                                                                autocomplete="off">
-                                                            <label class="btn btn-outline-danger" for="danger-outlined">
-                                                                <div class="buyModalBody__part3 ">
-
-                                                                    <div class="buyModalBody__part2--title">
-                                                                        18ماه گارانتی نوزده تجارت آمریکا
-                                                                    </div>
-                                                                </div>
-                                                            </label>
-                                                            <input type="radio" class="btn-check"
-                                                                name="options-outlined" id="btn-check-outlined"
-                                                                autocomplete="off">
-                                                            <label class="btn btn-outline-primary"
-                                                                for="btn-check-outlined">
-                                                                <div class="buyModalBody__part3 ">
-
-                                                                    <div class="buyModalBody__part2--title">
-                                                                        18ماه گارانتی نوزده تجارت اروپا
-                                                                    </div>
-                                                                </div>
-                                                            </label>
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!------>
-                                                <div class="varable">
-                                                    <div class="quantity-product f-parent">
-                                                        <p>
-                                                            تعداد محصول:
-                                                        </p>
-                                                        <form id="quantity-product" method="POST" class="quantity"
-                                                            action="#">
-                                                            <input type="button" value="-"
-                                                                class="button qtyminus minus trs-3" field="quantity" />
-                                                            <input type="text" name="quantity" value="1" class="qty" />
-                                                            <input type="button" value="+"
-                                                                class="button qtyplus plus trs-3" field="quantity" />
-                                                        </form>
-                                                    </div>
-                                                    <div class="price-product">
-                                                        <p>
-                                                            قیمت محصول:
-                                                        </p>
-                                                        <div class="price">
-                                                            <ins>
-                                                                15.000.000 تومان
-                                                            </ins>
-                                                        </div>
-                                                    </div>
-                                                    <div class="sale-button" id="fdsa" data-bs-toggle="modal"
-                                                        data-bs-target="#modal-bime-sabad">
+                            <div class="product-box">
+                                <div class="product-cart">
+
+                                    <a href="#" class="col-thumb"> <img src="img/products/shop-01.png" alt=""></a>
+                                    <div class="checkout-col-desc">
+                                        <a class="name trs-3" href="#">
+                                            گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت
+                                        </a>
+                                        <div class="category">
+                                            <div class="info-product">
+                                                <ul class="box-middle">
+                                                    <li class="comment">
                                                         <a class="trs-3" href="#">
-                                                            افزودن به سبد خرید
+                                                            شناسه محصول
+                                                            <strong>
+                                                                SDA-2453651253
+                                                            </strong>
                                                         </a>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--modal-->
-
-
-                        </div>
-
-                    </div>
-                    <!--mobile-->
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="modal-prc" tabindex="-1" aria-labelledby="Label" aria-hidden="true">
-                        <div class="modal-dialog modal-sl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">انتخاب کنید</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="sales-info">
-                                        <div class="color-product">
-                                            <p class="title">
-                                                رنگ محصول:
-                                            </p>
-                                            <div class="color-box f-parent">
-                                                <button>
-                                                    <span id="color" class="color green">
-                                                        <i class="fal fa-check"></i>
-                                                    </span>
-                                                </button>
-                                                <button>
-                                                    <span id="color" class="color blue">
-                                                        <i class="fal fa-check"></i>
-                                                    </span>
-                                                </button>
-                                                <button>
-                                                    <span id="color" class="color" style="background: #3d3b3c;">
-                                                        <i class="fal fa-check" style="color: #fff;"></i>
-                                                    </span>
-                                                </button>
-                                                <button>
-                                                    <span id="color" class="color"
-                                                        style="background-color: blueviolet;">
-                                                        <i class="fal fa-check" style="color: #fff;"></i>
-                                                    </span>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                        <!---->
-                                        <div>
-                                            <div id="myGroup">
-                                                <div style="display: flex; flex-direction: column; gap: 10px;">
-                                                    <input type="radio" class="btn-check" name="options-outlined"
-                                                        id="btn-no" autocomplete="off" checked>
-                                                    <label class="btn btn-outline-secondary" for="btn-no">
-                                                        <div class="buyModalBody__part3 ">
-
-                                                            <div class="buyModalBody__part2--title">
-                                                                18ماه گارانتی نوزده تجارت خاورمیانه
-                                                            </div>
-                                                        </div>
-                                                    </label>
-
-                                                    <input type="radio" class="btn-check" name="options-outlined"
-                                                        id="success-outlined" autocomplete="off">
-                                                    <label class="btn btn-outline-success" for="success-outlined">
-                                                        <div class="buyModalBody__part3 ">
-
-                                                            <div class="buyModalBody__part2--title">
-                                                                18ماه گارانتی نوزده تجارت آسیا
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                    <input type="radio" class="btn-check" name="options-outlined"
-                                                        id="danger-outlined" autocomplete="off">
-                                                    <label class="btn btn-outline-danger" for="danger-outlined">
-                                                        <div class="buyModalBody__part3 ">
-
-                                                            <div class="buyModalBody__part2--title">
-                                                                18ماه گارانتی نوزده تجارت آمریکا
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                    <input type="radio" class="btn-check" name="options-outlined"
-                                                        id="btn-check-outlined" autocomplete="off">
-                                                    <label class="btn btn-outline-primary" for="btn-check-outlined">
-                                                        <div class="buyModalBody__part3 ">
-
-                                                            <div class="buyModalBody__part2--title">
-                                                                18ماه گارانتی نوزده تجارت اروپا
-                                                            </div>
-                                                        </div>
-                                                    </label>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!------>
-                                        <div class="varable">
-                                            <div class="quantity-product f-parent">
-                                                <p>
-                                                    تعداد محصول:
-                                                </p>
-                                                <form id="quantity-product" method="POST" class="quantity" action="#">
-                                                    <input type="button" value="-" class="button qtyminus minus trs-3"
-                                                        field="quantity" />
-                                                    <input type="text" name="quantity" value="1" class="qty" />
-                                                    <input type="button" value="+" class="button qtyplus plus trs-3"
-                                                        field="quantity" />
-                                                </form>
-                                            </div>
-                                            <div class="price-product">
-                                                <p>
-                                                    قیمت محصول:
-                                                </p>
-                                                <div class="price">
-                                                    <ins>
-                                                        15.000.000 تومان
-                                                    </ins>
-                                                </div>
-                                            </div>
-                                            <div class="sale-button" id="fdsa" data-bs-toggle="modal"
-                                                data-bs-target="#modal-bime-sabad">
-                                                <a class="trs-3" href="#">
-                                                    افزودن به سبد خرید
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--modal-->
-
-
-                </div>
-            </div>
-
-            <!---------start sabad-------->
-            <div class="sabad-products">
-                <div class="holder-products">
-                    <div id="head-title ">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="title f-parent">
-                                        <h5>
-                                            سبد پیشنهادی
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="products" style="margin-top: -20px">
-                        <div class="container">
-                            <div class="row">
-                                <div class="owl-carousel nav-arrow">
-                                    <div class="col-12">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-07-25" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
-                                                </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره یک
-                                                    </a>
-                                                </span>
-
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A01</li>
-                                                    <li>گوشی سامسونگ مدل A02</li>
-                                                    <li>گوشی سامسونگ مدل A03</li>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تعداد
+                                                            <strong>
+                                                                (6)
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تاریخ:
+                                                            <strong>
+                                                                29 اسفند 1401
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            وضعیت:
+                                                            <strong>
+                                                                تکمیل شده
+                                                            </strong>
+                                                        </a>
+                                                    </li>
                                                 </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 22.000.000 تومان </del>
-                                                        <ins> 15.000.000 تومان </ins>
-                                                    </span>
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 2</span>
-                                                    </div>
-
-                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="holder-item trs-3">
-                                            <div class="countdown-main">
-                                                <div class='countdown' data-date="2024-06-30" data-time="18:30">
-                                                </div>
-                                            </div>
-                                            <div class="product-pic">
-                                                <span class="holder-pic">
-                                                    <img src="img/products/product-new-01.jpg " alt=" " />
+                                        <div class="rtn-box">
+                                            <label class="item">
+                                                مرجوع
+                                                <input type="checkbox">
+                                                <span class="tick">
+                                                    <i class="fal fa-check"></i>
                                                 </span>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="title mb-1">
-                                                    <a href="single-product.html " class="trs-3">
-                                                        سبد موبایل شماره دوم
-                                                    </a>
-                                                </span>
+                                            </label>
+                                        </div>
+                                        <span class="total-price">
+                                            30.000.000 تومان
+                                        </span>
 
-                                                <ul class="trs-3">
-                                                    <li>گوشی سامسونگ مدل A11</li>
-                                                    <li>گوشی سامسونگ مدل A22</li>
-                                                    <li>گوشی سامسونگ مدل A23</li>
-                                                    <li>گوشی سامسونگ مدل A24</li>
-                                                    <li>گوشی سامسونگ مدل A23</li>
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="product-cart">
+                                    <a href="#" class="col-thumb"> <img src="img/products/shop-01.png" alt=""></a>
+                                    <div class="checkout-col-desc">
+                                        <a class="name trs-3" href="#">
+                                            گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت
+                                        </a>
+                                        <div class="category">
+                                            <div class="info-product">
+                                                <ul class="box-middle">
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            شناسه محصول
+                                                            <strong>
+                                                                SDA-2453651253
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تعداد
+                                                            <strong>
+                                                                (6)
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تاریخ:
+                                                            <strong>
+                                                                29 اسفند 1401
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            وضعیت:
+                                                            <strong>
+                                                                تکمیل شده
+                                                            </strong>
+                                                        </a>
+                                                    </li>
                                                 </ul>
-
-                                                <div class="product-bottom f-parent">
-
-                                                    <span class="pric">
-                                                        <del> 12.000.000 تومان </del>
-                                                        <ins> 10.000.000 تومان </ins>
-                                                    </span>
-
-                                                    <div class="mainBtn">
-                                                        <button class="btn">
-                                                            جزئیات</button>
-                                                        <button class="btn">ثبت
-                                                            سفارش</button>
-                                                        <span class="count">تعداد باقیمانده: 6</span>
-                                                    </div>
-
-                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                        <div class="rtn-box">
+                                            <label class="item">
+                                                مرجوع
+                                                <input type="checkbox">
+                                                <span class="tick">
+                                                    <i class="fal fa-check"></i>
+                                                </span>
+                                            </label>
+                                        </div>
 
+                                        <span class="total-price">
+                                            30.000.000 تومان
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product-cart">
+                                    <a href="#" class="col-thumb"> <img src="img/products/shop-01.png" alt=""></a>
+                                    <div class="checkout-col-desc">
+                                        <a class="name trs-3" href="#">
+                                            گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت
+                                        </a>
+                                        <div class="category">
+                                            <div class="info-product">
+                                                <ul class="box-middle">
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            شناسه محصول
+                                                            <strong>
+                                                                SDA-2453651253
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تعداد
+                                                            <strong>
+                                                                (6)
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تاریخ:
+                                                            <strong>
+                                                                29 اسفند 1401
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            وضعیت:
+                                                            <strong>
+                                                                تکمیل شده
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="rtn-box">
+                                            <label class="item">
+                                                مرجوع
+                                                <input type="checkbox">
+                                                <span class="tick">
+                                                    <i class="fal fa-check"></i>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <span class="total-price">
+                                            30.000.000 تومان
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product-cart">
+                                    <a href="#" class="col-thumb"> <img src="img/products/shop-01.png" alt=""></a>
+                                    <div class="checkout-col-desc">
+                                        <a class="name trs-3" href="#">
+                                            گوشی موبایل سامسونگ مدل Galaxy A50 SM-A505F/DS دو سیم کارت ظرفیت 128گیگابایت
+                                        </a>
+                                        <div class="category">
+                                            <div class="info-product">
+                                                <ul class="box-middle">
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            شناسه محصول
+                                                            <strong>
+                                                                SDA-2453651253
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تعداد
+                                                            <strong>
+                                                                (6)
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            تاریخ:
+                                                            <strong>
+                                                                29 اسفند 1401
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <a class="trs-3" href="#">
+                                                            وضعیت:
+                                                            <strong>
+                                                                تکمیل شده
+                                                            </strong>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="rtn-box">
+                                            <label class="item">
+                                                مرجوع
+                                                <input type="checkbox">
+                                                <span class="tick">
+                                                    <i class="fal fa-check"></i>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <span class="total-price">
+                                            30.000.000 تومان
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!---------end sabad-------->
 
-        </div>
-    </div>
-
-    <!-- ---------- Banner Ads ---------- -->
-    <div class="banner-ads">
-        <div class="holder-ads">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-6">
-                        <div class="ads mb-2">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/3.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-6">
-                        <div class="ads">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/1.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-6">
-                        <div class="ads">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/4.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-6">
-                        <div class="ads">
-                            <a href="#" class="ads-pic">
-                                <img src="img/baner/2.jpg" alt="">
-                            </a>
+                            <div class="step-rtn">
+                                <div class="returned-step">
+                                    <a class="button trs-3" href="#">
+                                        <span>بازگشت </span>
+                                    </a>
+                                </div>
+                                <div class="returned-step">
+                                    <a class="button trs-3" href="#">
+                                        <span>ادامه </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -5727,18 +3978,10 @@
                                     فروشگاه اینترنتی فرنا
                                 </h6>
                                 <p class="text">
-                                    به پشتوانه سال‌ها خدمت تخصصی در زمینه فروش تجهیزات تکنولوژیک (اعم از گوشی موبایل،
-                                    لوازم جانبی، لوازم خانگی، کنسول های بازی و سایر تجهیزات)، امروزه در بستر اینترنت نیز
-                                    در تلاش برای خدمتگذاری با تمام توان به خریداران این محصولات هستیم. اطمینان از اصالت
-                                    کالا را سرلوحه تمامی اقدامات خود قرار داده‌ایم تا اعتماد شما به فرنا را ارج نهیم.
-                                    همچنین با اتکا به کارشناسان با انگیزه و با تجربه، آماده پاسخگویی به سوالات و ابهامات
-                                    شما هم بعد و هم قبل از خرید محصولات هستیم. به پشتوانه
-                                    سال‌ها خدمت تخصصی در زمینه فروش تجهیزات تکنولوژیک (اعم از گوشی موبایل، لوازم جانبی،
-                                    لوازم خانگی، کنسول های بازی و سایر تجهیزات)، امروزه در بستر اینترنت نیز در تلاش برای
-                                    خدمتگذاری با تمام توان به خریداران این محصولات
-                                    هستیم. اطمینان از اصالت کالا را سرلوحه تمامی اقدامات خود قرار داده‌ایم تا اعتماد شما
-                                    به فرنا را ارج نهیم. همچنین با اتکا به کارشناسان با انگیزه و با تجربه، آماده
-                                    پاسخگویی به سوالات و ابهامات شما هم بعد و هم قبل از خرید
+                                    به پشتوانه سال‌ها خدمت تخصصی در زمینه فروش تجهیزات تکنولوژیک (اعم از گوشی موبایل، لوازم جانبی، لوازم خانگی، کنسول های بازی و سایر تجهیزات)، امروزه در بستر اینترنت نیز در تلاش برای خدمتگذاری با تمام توان به خریداران این محصولات هستیم. اطمینان از اصالت
+                                    کالا را سرلوحه تمامی اقدامات خود قرار داده‌ایم تا اعتماد شما به فرنا را ارج نهیم. همچنین با اتکا به کارشناسان با انگیزه و با تجربه، آماده پاسخگویی به سوالات و ابهامات شما هم بعد و هم قبل از خرید محصولات هستیم. به پشتوانه
+                                    سال‌ها خدمت تخصصی در زمینه فروش تجهیزات تکنولوژیک (اعم از گوشی موبایل، لوازم جانبی، لوازم خانگی، کنسول های بازی و سایر تجهیزات)، امروزه در بستر اینترنت نیز در تلاش برای خدمتگذاری با تمام توان به خریداران این محصولات
+                                    هستیم. اطمینان از اصالت کالا را سرلوحه تمامی اقدامات خود قرار داده‌ایم تا اعتماد شما به فرنا را ارج نهیم. همچنین با اتکا به کارشناسان با انگیزه و با تجربه، آماده پاسخگویی به سوالات و ابهامات شما هم بعد و هم قبل از خرید
                                     محصولات هستیم.
                                 </p>
                             </div>
@@ -5973,8 +4216,7 @@
 
             <div class="copyright">
                 <p>
-                    کلیه حقوق مادی و معنوی سایت متعلق به فرنا می باشد و هرگونه کپی برداری از محتوای سایت با درج منبع
-                    بلامانع است. | طراحی و توسعه توسط
+                    کلیه حقوق مادی و معنوی سایت متعلق به فرنا می باشد و هرگونه کپی برداری از محتوای سایت با درج منبع بلامانع است. | طراحی و توسعه توسط
                     <a class="trs-3" href="https://weaz.ir">
                         weaz.ir
                     </a>
@@ -5983,9 +4225,6 @@
 
         </div>
     </div>
-
-
-
 
     <!-- ---------- Back to top ---------- -->
     <a id="tops-button" class="top-scroll trs-3" href="#">
@@ -6002,7 +4241,6 @@
 
     <!-- Main JS File -->
     <script src="js/main.js"></script>
-    <script src="js/hamkar.js "></script>
 
 </body>
 

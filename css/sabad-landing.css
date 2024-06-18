@@ -360,6 +360,12 @@
   margin-right: 10px;
 }
 
+.sbd-product .product-item .product-fu {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .sbd-product .product-item .price {
   cursor: pointer;
   display: block;
@@ -414,4 +420,75 @@
 }
 .sbd-des p {
   font-size: 14px;
+}
+
+.sabad-product {
+  background: #f9f9f9;
+  margin-top: 15px;
+  width: 100%;
+  border: 1px #dcdcdc solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.sabad-product img {
+  width: auto;
+  height: 70px;
+}
+
+.sabad-product .product-name {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.sabad-product .product-description {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.sabad-product .select-product {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #d90268;
+  float: left;
+  margin-top: 10px;
+}
+
+.sabad-product .select-product:hover {
+  background: #1e294d;
+}
+
+.sabad-product .price {
+  cursor: pointer;
+  display: block;
+  padding: 0px 10px 0px 10px;
+  text-align: start;
+  float: left;
+  margin-top: 10px;
+}
+
+.sabad-product .price del {
+  display: block;
+  font-size: 12px;
+  color: #a4a4a4;
+  text-decoration: line-through;
+}
+
+.sabad-product .price ins {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e294d;
+  margin-top: 10px;
 }

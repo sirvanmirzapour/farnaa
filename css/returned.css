@@ -1,0 +1,96 @@
+.returned-btn {
+  display: block;
+  font-size: 18px;
+  float: left;
+  margin-top: 20px;
+  color: #fff;
+  padding: 4px 10px 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  background: #d90268;
+}
+.returned-btn:hover {
+  background: #233462;
+}
+
+.returned-step {
+  display: block;
+  font-size: 18px;
+  float: left;
+  margin-top: 20px;
+  color: #fff;
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  background: #d90268;
+}
+.returned-step:hover {
+  background: #233462;
+}
+.step-rtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rtn-box {
+  display: block;
+  font-size: 18px;
+  float: left;
+  margin-top: 20px;
+  color: #000;
+  font-size: 13px;
+}
+
+.rtn-box .item {
+  position: relative;
+  display: block;
+  padding-right: 30px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #000;
+}
+
+.rtnc-box .item:hover {
+  background: #f1f1f1;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.rtn-box .item input {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.rtn-box .item .tick {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 50%;
+  right: 0;
+  text-align: center;
+  background: #999;
+  border-radius: 5px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.rtn-box .item .tick i {
+  display: none;
+  line-height: 25px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.rtn-box .item input:checked ~ .tick i {
+  display: block;
+}
+
+.rtn-box .item input:checked ~ .tick {
+  background: #d90268;
+}
