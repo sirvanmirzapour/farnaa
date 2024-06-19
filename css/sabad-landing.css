@@ -448,6 +448,10 @@
   width: auto;
   height: 70px;
 }
+.sbd2 img {
+  width: auto;
+  height: auto;
+}
 
 .sabad-product .product-name {
   font-size: 14px;
