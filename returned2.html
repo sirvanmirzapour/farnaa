@@ -3630,40 +3630,58 @@
                                 </div>
 
                                 <form action="#">
-                                    <div class="product-rtn-comment">
-                                        <div class="product-rtn-quantity">
-                                            <span>تعداد مرجوعی *</span>
-                                            <div class="quantity-product f-parent">
-                                                <div id="quantity-product" method="POST" class="quantity" action="#">
-                                                    <input type="button" value="-" class="button qtyminus minus trs-3"
-                                                        field="quantity" />
-                                                    <input type="text" name="quantity" value="1" class="qty" />
-                                                    <input type="button" value="+" class="button qtyplus plus trs-3"
-                                                        field="quantity" />
+                                    <div>
+                                        <div class="product-rtn-comment">
+                                            <div class="product-rtn-quantity">
+                                                <span>تعداد مرجوعی </span>
+                                                <div class="quantity-product f-parent">
+                                                    <div id="quantity-product" method="POST" class="quantity"
+                                                        action="#">
+                                                        <input type="button" value="-"
+                                                            class="button qtyminus minus trs-3" field="quantity" />
+                                                        <input type="text" name="quantity" value="1" class="qty" />
+                                                        <input type="button" value="+" class="button qtyplus plus trs-3"
+                                                            field="quantity" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-rtn-reason">
+                                                <span>علت مرجوعی</span>
+                                                <div class="state">
+                                                    <div class="state-box">
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>کالا در شرایط اولیه است، قصد بازگشت آن را
+                                                                دارم
+                                                            </option>
+                                                            <option>کالا معیوب است</option>
+                                                            <option>مشخصات با کالا خریداری شده متفاوت است</option>
+
+                                                        </select>
+
+                                                        <i class="fal fa-chevron-down"></i>
+
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="product-rtn-reason">
-                                            <span>علت مرجوعی *</span>
-                                            <div class="state">
-                                                <div class="state-box">
-                                                    <select id="inputState" class="form-control">
-                                                        <option selected>کالا در شرایط اولیه است، قصد بازگشت آن را دارم
-                                                        </option>
-                                                        <option>کالا معیوب است</option>
-                                                        <option>مشخصات با کالا خریداری شده متفاوت است</option>
-
-                                                    </select>
-
-                                                    <i class="fal fa-chevron-down"></i>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
+                                        <div class="product-rtn-tozih">
+                                            <span>توضیحات</span>
                                             <textarea name="note" id="" cols="3" rows="3"></textarea>
                                         </div>
+
+                                        <div class="product-rtn-tozih">
+                                            <div class="state">
+                                                <label class="form-label" for="name">
+                                                    ارسال عکس
+                                                </label>
+                                                <input type="file" class="form-control" placeholder="سیروان میرزاپور">
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </form>
+
+
                             </div>
                         </div>
 
@@ -3675,7 +3693,7 @@
                             </div>
                             <div class="returned-step">
                                 <a class="button trs-3" href="#">
-                                    <span>ادامه </span>
+                                    <span>ثبت درخواست </span>
                                 </a>
                             </div>
                         </div>

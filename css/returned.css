@@ -122,12 +122,13 @@
   font-size: 13px;
 }
 
+
 .product-rtn-box .product-rtn-comment{
   display: flex;
   flex-direction: row;
   border-top: #dcdcdc 1px solid;
-   margin: 10px;
-    padding: 10px;
+ 
+    padding-top: 10px;
 }
 .product-rtn-box .product-rtn-comment span{
   margin: 8px;
@@ -196,7 +197,7 @@
 
 .product-rtn-box form .product-rtn-comment .state-box {
   position: relative;
-  padding: 15px
+  margin-top: 15px
 }
 
 .product-rtn-box form .product-rtn-comment .state-box i {
@@ -208,4 +209,21 @@
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%);
+}
+
+.product-rtn-box form textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px ;
+  font-size: 12px;
+  border: 1px #dcdcdc solid;
+  background: #fff;
+  margin-top:10px
+}
+
+.product-rtn-box form .product-rtn-tozih {
+  margin-top:10px;
+  display: flex; 
+  flex-direction: column;
+  font-size: 13px;
 }
