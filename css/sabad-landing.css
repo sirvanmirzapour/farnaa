@@ -391,6 +391,16 @@
   margin-top: 10px;
 }
 
+.sbd-product .product-item .product {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+}
+
 .sbd-product .product-item .select-product {
   cursor: pointer;
   display: block;

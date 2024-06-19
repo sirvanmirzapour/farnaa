@@ -94,3 +94,118 @@
 .rtn-box .item input:checked ~ .tick {
   background: #d90268;
 }
+.product-rtn-box  {
+  display: flex;
+  flex-direction:column
+}
+
+.product-rtn-box .product-datails {
+  display: flex; 
+  align-items: end;
+}
+.product-rtn-box .product-datails img {
+  width: 75px;
+  height: auto;
+}
+.product-rtn-box .product-datails .product-title {
+  font-size: 16px;
+  font
+}
+.product-rtn-box .product-datails .product-varable {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  font-size: 13px;
+}
+.product-rtn-box .product-datails .product-price {
+
+  font-size: 13px;
+}
+
+.product-rtn-box .product-rtn-comment{
+  display: flex;
+  flex-direction: row;
+  border-top: #dcdcdc 1px solid;
+   margin: 10px;
+    padding: 10px;
+}
+.product-rtn-box .product-rtn-comment span{
+  margin: 8px;
+  font-size: 13px;
+}
+
+
+
+.product-rtn-box form .product-rtn-comment .product-rtn-reason  {
+  flex-grow: 1;
+}
+.form-control{
+  font-size:0.8rem !important;
+  padding: 0.575rem 0.95rem !important;
+}
+.product-rtn-box form .product-rtn-comment .quantity-product {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .title {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .quantity {
+  position: relative;
+  float: left;
+  font-size:0.9rem;
+  border: 1px #dcdcdc solid;
+  border-radius: 5px;
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .quantity .qty {
+  width: 80px;
+  height: 38px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .quantity .qtyminus {
+  right: 0;
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .quantity .qtyplus {
+  left: 0;
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .quantity .button {
+  position: absolute;
+  top: 50%;
+  padding: 8px;
+  background: none;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.product-rtn-box form .product-rtn-comment .quantity-product .quantity .button:hover {
+  color: #ff5858;
+}
+
+.product-rtn-box form .product-rtn-comment .state-box {
+  position: relative;
+  padding: 15px
+}
+
+.product-rtn-box form .product-rtn-comment .state-box i {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
