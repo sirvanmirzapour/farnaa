@@ -62,7 +62,7 @@ tbody {
   border-radius: 0px 10px 10px 0px;
   color: #ffffff;
   font-size: 14px;
-  background: #233462;
+  background: #d90268;
 }
 
 table.rounded-corners {
@@ -395,6 +395,27 @@ table.rounded-corners {
 .ttl {
   font-weight: 600;
 }
+.ttlMobile {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.ttlDes {
+  font-size: small;
+}
+.ttlPriceDel {
+  font-size: 13px;
+  color: #e11919;
+  text-decoration: line-through;
+}
+.ttlPriceIns {
+  font-size: 13px;
+  padding-right: 5px;
+  color: #2f2f2f;
+}
 
 .est .info-box form .item {
   position: relative;
@@ -538,7 +559,11 @@ table.rounded-corners {
   text-align: center;
   border-radius: 5px;
   color: #ffffff;
-  background: #dc3545 !important;
+  background: #d90268 !important;
+}
+
+.order-content .order-box table .item td .tdjbtn:hover {
+  background: #233462 !important;
 }
 
 /*----------sabad Products----------*/
@@ -585,6 +610,8 @@ table.rounded-corners {
   position: relative;
   padding: 10px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sabad-products .holder-item .product-info .title {
@@ -618,7 +645,6 @@ table.rounded-corners {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
   width: 100%;
   bottom: 0;
 }
@@ -838,4 +864,244 @@ table.rounded-corners {
   color: #233462;
   border-radius: 5px;
   font-weight: bold;
+}
+
+/*----------sabad Products----------*/
+
+.sabad-productsOne {
+  margin-top: 20px;
+}
+
+.sabad-productsOne .owl-carousel .owl-stage {
+  padding: 20px 0;
+}
+
+.sabad-productsOne .holder-products .products .holder-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px #dcdcdc solid;
+  min-height: 300px;
+}
+
+.sabad-productsOne .holder-products h5 {
+  border-bottom: 2px #233462 solid;
+  padding-bottom: 8px;
+  width: fit-content;
+}
+
+.sabad-productsOne .holder-item .product-pic {
+  margin-top: 40px;
+}
+
+.sabad-productsOne .holder-item .product-pic .holder-pic {
+  display: block;
+}
+
+.sabad-productsOne .holder-item .product-pic .holder-pic img {
+  max-width: 200px;
+}
+
+.sabad-productsOne .holder-item .product-info {
+  position: relative;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sabad-productsOne .holder-item .product-info .title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sabad-productsOne .holder-item .product-info .title a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sabad-productsOne .holder-item .product-info .listDevice {
+  display: block;
+  font-size: 12px;
+  color: #000;
+}
+.sabad-productsOne .holder-item .product-info ul {
+  margin-right: 10px;
+}
+.sabad-productsOne .holder-item .product-info li {
+  display: flex;
+  font-size: 14px;
+  color: #777;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .rate {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 8px;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .rate i {
+  font-size: 14px;
+  color: #ffc300;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .pric {
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .pric del {
+  display: block;
+  font-size: 13px;
+  color: #a4a4a4;
+  text-decoration: line-through;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .pric ins {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #d90268;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .count {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .mainBtn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.sabad-productsOne .holder-item .product-info .product-bottom .btn {
+  float: left;
+  text-align: center;
+  background: #233462;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 4px 8px 4px 8px;
+  width: 100%;
+  margin-top: 4px;
+}
+.sabad-productsOne .holder-item .product-info .product-bottom .btn:hover {
+  background: #d90268;
+}
+
+.sabad-productsOne .products .holder-item .product-info .product-actions {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 80%);
+}
+
+.sabad-productsOne .products .holder-item:hover .product-info .product-actions {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sabad-productsOne
+  .products
+  .holder-item
+  .product-info
+  .product-actions
+  .action-holder {
+  text-align: center;
+}
+
+.sabad-productsOne
+  .products
+  .holder-item
+  .product-info
+  .product-actions
+  .action-holder
+  .action-item {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.sabad-productsOne
+  .products
+  .holder-item
+  .product-info
+  .product-actions
+  .action-holder
+  .action-item
+  a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  font-size: 22px;
+  border-radius: 12px;
+  background: #e8e8e8;
+}
+
+.sabad-productsOne
+  .products
+  .holder-item
+  .product-info
+  .product-actions
+  .action-holder
+  .action-item
+  a:hover {
+  color: #d90268;
+}
+
+.sabad-productsOne
+  .products
+  .holder-item
+  .product-info
+  .product-actions
+  .action-holder
+  .action-item
+  a
+  i {
+  line-height: 45px;
+}
+
+.sabad-productsOne .products .holder-item .onsale {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0px 8px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  border-radius: 0px 10px;
+  color: #ffffff;
+  background: #d90268;
 }

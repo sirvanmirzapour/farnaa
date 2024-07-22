@@ -24,7 +24,31 @@ $(document).ready(function() {
         }
 
     });
+    $(".sabad-productsOne .owl-carousel").owlCarousel({
+        rtl: true,
+        loop: true,
+        items: 3,
+        nav: true,
+        dots: false,
+        navText: ["<i class='fal fa-chevron-right'></i>", "<i class='fal fa-chevron-left'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+            500: {
+                items: 1,
+
+            },
+            1200: {
+                items: 1,
+
+            }
+        }
+
+    });
 });
+
 
 
 (function($) {
