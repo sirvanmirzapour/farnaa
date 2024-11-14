@@ -1,0 +1,74 @@
+.content-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-container .card {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #fff;
+  text-align: start;
+}
+.content-container .benefits {
+  background: #fcfcfc;
+  border: 1px solid #1e294d;
+}
+
+.content-container .benefits .header {
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #1e294d;
+  padding: 4px;
+}
+.content-container .disadvantages {
+  border: 1px solid #d90268;
+}
+.content-container .disadvantages .header {
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #d90268;
+  padding: 4px;
+}
+
+.benefits {
+  border: 1px solid #e0e0e0;
+}
+
+.content-container .list ul {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 6px;
+}
+.content-container .list ul li {
+  font-size: 14px;
+}
+
+.questions-box {
+  height: 350px;
+  width: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.read-more-comment {
+  display: none;
+}
+
+.read-more-comment-action {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn-read-more-comment {
+  font-size: 12px;
+  color: #d90268;
+}
