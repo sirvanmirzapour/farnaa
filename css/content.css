@@ -72,3 +72,25 @@
   font-size: 12px;
   color: #d90268;
 }
+
+.product-compare {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.product-compare > span {
+  display: flex;
+
+  background-color: #1e294d;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.product-compare > span:hover {
+  background-color: #d90268;
+}
+.product-compare > span > i {
+  margin: 2px;
+  padding: 2px;
+}
