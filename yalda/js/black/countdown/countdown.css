@@ -1,0 +1,148 @@
+.countdown {
+  text-transform: uppercase;
+}
+
+.countdown div {
+  display: inline-block;
+}
+
+.countdown div span {
+  display: block;
+  text-align: center;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.countdown-container .seconds-bottom {
+  color: #c00;
+}
+
+.countdown-container .countdown-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #d90268;
+  font-style: normal;
+  font-display: swap;
+}
+
+.countdown-container .countdown-value {
+  background: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  width: 10px;
+  height: 50px;
+  color: #fff;
+  font-style: normal;
+  font-display: swap;
+}
+
+.countdown-bold {
+  text-transform: uppercase;
+}
+
+.countdown-bold div {
+  display: inline-block;
+}
+
+.countdown-bold div span {
+  display: block;
+  text-align: center;
+}
+
+.countdown-bold.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.countdown-bold .countdown-container .seconds-bottom {
+  color: #c00;
+}
+
+.countdown-bold .countdown-container .countdown-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 50px;
+  color: #d90268;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.countdown-bold .countdown-container .countdown-value {
+  background: #33333350;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+  border-radius: 10px;
+}
+
+.countdown-yal {
+  text-transform: uppercase;
+}
+
+.countdown-yal div {
+  display: inline-block;
+}
+
+.countdown-yal div span {
+  display: block;
+  text-align: center;
+}
+
+.countdown-yal.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.countdown-yal .countdown-container .seconds-bottom {
+  color: #c00;
+}
+
+.countdown-yal .countdown-container .countdown-heading {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #d90268;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.countdown-yal .countdown-container .countdown-value {
+  background: rgba(24, 24, 24, 0.56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  padding: 5px;
+  margin: -8px;
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+  border-radius: 10px;
+}
